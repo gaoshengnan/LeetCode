@@ -1,5 +1,7 @@
 ##  反转单链表
 题意如下图：
+<div align="center"><img src="../../../resources/img/leetcode206.jpeg" height="400" width="680" >
+
 <div align="center"><img src="../../../resources/img/leetcode206.png" height="400" width="680" >
 
 <font color=#7B68EE size=4.5 face="黑体">重要提示leetCode里面传入的head结点，表示的不是数据结构里面的头结点，而是链表的第一个结点</font>
