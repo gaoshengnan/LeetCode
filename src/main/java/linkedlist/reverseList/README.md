@@ -1,16 +1,16 @@
 ##  反转单链表
 题意如下图：
-<div align="center"><img src="../../resources/img/leetcode6.png" height="400" width="600" >
+<div align="center"><img src="../../../resources/img/leetcode206.png" height="400" width="600" >
 
 <font color=#7B68EE size=4.5 face="黑体">重要提示leetCode里面传入的head结点，表示的不是数据结构里面的头结点，而是链表的第一个结点</font>
 
 ### 单链表反转步骤 -- 迭代法
 
 1）第一步，判断第一个结点head是否为空，如果为空，表示是个空链表，直接返回head（null），又或者head.next为空，表示链表只有一个结点，直接返回head
-<div align="center"><img src="../../resources/img/reverseLinkedList1.png" height="450" width="400" >
+<div align="center"><img src="resources/img/reverseLinkedList1.png" height="350" width="400" >
 
 2）第二步，如果一个链表只有两个结点该怎么反转？那就是A结点变成最后一个结点，B结点变成第一个结点，所以A指向null，B指向A
-<div align="center"><img src="../../resources/img/reverseLinkedList3.png" height="450" width="400" >
+<div align="center"><img src="../../resources/img/reverseLinkedList3.png" height="350" width="400" >
 
 3）第三步，如果有多个结点如何反转？
 <div align="center"><img src="../../resources/img/reverseLinkedList2.png" height="550" width="380" >
@@ -21,7 +21,7 @@
 
 > 注: 变量是指每次进入循环的值都是在变化的，所以是一个变量
 
-4) 第四步，反转指针之后，将指针陆续向后走一位，即pre走到cur，cur走到cur的下一个结点，但是事先没有声明cur的下一个结点是谁，cur就不知道该向哪里移动了，所以需要提前声明出cur的下一个结点next，
+4）第四步，反转指针之后，将指针陆续向后走一位，即pre走到cur，cur走到cur的下一个结点，但是事先没有声明cur的下一个结点是谁，cur就不知道该向哪里移动了，所以需要提前声明出cur的下一个结点next，
  ListNode next = cur.next;
 
 
