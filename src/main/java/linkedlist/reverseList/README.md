@@ -2,7 +2,15 @@
 > - 英文版：[https://leetcode.com/problems/reverse-linked-list/](https://leetcode.com/problems/reverse-linked-list/)
 > - 中文版：[https://leetcode-cn.com/problems/reverse-linked-list/](https://leetcode-cn.com/problems/reverse-linked-list/)
 
-<font color=#7B68EE size=4.5 face="黑体">重要提示leetCode里面传入的head结点，表示的不是数据结构里面的头结点，而是链表的第一个结点</font>
+重要提示leetCode里面传入的head结点，表示的不是数据结构里面的头结点，而是链表的第一个结点
+
+根据题意给出链表图：
+反转前：
+<div align="center"><img src="../../../resources/img/leetcode206b.png" height="120" width="700" ></div>
+反转后：
+<div align="center"><img src="../../../resources/img/leetcode206a.png" height="120" width="700" ></div>
+
+
 
 ### 单链表反转步骤 -- 迭代法
 
@@ -34,6 +42,7 @@
 > - 移动当前结点到下一个结点，cur = next
  
 其中步骤1的左边是next，右边是cur.next，表示要将右边cur.next的值赋给左边的next变量，即核心是给等号左边的next结点赋值；另外步骤2的左边是cur.next，右边是pre，意思是将右边pre的值（最开始是null）赋值给左边的指针cur.next即核心是给等号左边的指针赋值
+
 虽然步骤1和步骤2中都有cur.next，但是步骤1在右边，表示的是一个具体的值，赋给左边变量，而步骤2在左边，表示的是一个指针，是一个引用，将pre结点赋值给这个指针引用
 
 
