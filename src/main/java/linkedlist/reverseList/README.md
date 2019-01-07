@@ -8,25 +8,26 @@
 ### 单链表反转步骤 -- 迭代法
 
 1）第一步，判断第一个结点head是否为空，如果为空，表示是个空链表，直接返回head（null），又或者head.next为空，表示链表只有一个结点，直接返回head
-<div align="center"><img src="../../../resources/img/reverseLinkedList1.png" height="380" width="500" >
+<div align="center"><img src="../../../resources/img/reverseLinkedList1.png" height="350" width="600" >
 
 2）第二步，如果一个链表只有两个结点该怎么反转？那就是A结点变成最后一个结点，B结点变成第一个结点，所以A指向null，B指向A
-<div align="center"><img src="../../../resources/img/reverseLinkedList3.png" height="400" width="500" >
+<div align="center"><img src="../../../resources/img/reverseLinkedList3.png" height="400" width="600" >
 
 3）第三步，如果有多个结点如何反转？
-<div align="center"><img src="../../../resources/img/reverseLinkedList2.png" height="500" width="500" >
+<div align="center"><img src="../../../resources/img/reverseLinkedList2.png" height="500" width="600" >
 
 从图中可以看出，左侧的A->B->C->D->E，表示第一个结点到最后一个结点的走向，右侧的null->A->B->C->D，表示第一个结点前一个结点到最后一个结点前一个结点的走向，所以需要声明两个变量pre和cur：
-> pre: 表示前一个结点，是一个变量，从null开始循环，
-> cur: 表示当前结点，也是一个变量（），从head开始循环
+> - pre: 表示前一个结点，是一个变量，从null开始循环，
+> - cur: 表示当前结点，也是一个变量（），从head开始循环
 
-> 注: 变量是指每次进入循环的值都是在变化的，所以是一个变量
+注: 变量是指每次进入循环的值都是在变化的，所以是一个变量
 
 4）第四步，反转指针之后，将指针陆续向后走一位，即pre走到cur，cur走到cur的下一个结点，但是事先没有声明cur的下一个结点是谁，cur就不知道该向哪里移动了，所以需要提前声明出cur的下一个结点next，
  ListNode next = cur.next;
 
 
 ### 总结
+
 > 重点注意：反转单链表中迭代法的核心其实就四步：
 > - 1.首先将存储当前结点的下一个结点next = cur.next
 > - 2.然后反转指针，将指针指向前一个结点，cur.next = pre
