@@ -1,19 +1,19 @@
 ##  反转单链表
 题意如下图：
-<div align="center"><img src="../../../resources/img/leetcode206.png" height="400" width="600" >
+<div align="center"><img src="../../../resources/img/leetcode206.png" height="400" width="680" >
 
 <font color=#7B68EE size=4.5 face="黑体">重要提示leetCode里面传入的head结点，表示的不是数据结构里面的头结点，而是链表的第一个结点</font>
 
 ### 单链表反转步骤 -- 迭代法
 
 1）第一步，判断第一个结点head是否为空，如果为空，表示是个空链表，直接返回head（null），又或者head.next为空，表示链表只有一个结点，直接返回head
-<div align="center"><img src="resources/img/reverseLinkedList1.png" height="350" width="400" >
+<div align="center"><img src="../../../resources/img/reverseLinkedList1.png" height="350" width="400" >
 
 2）第二步，如果一个链表只有两个结点该怎么反转？那就是A结点变成最后一个结点，B结点变成第一个结点，所以A指向null，B指向A
-<div align="center"><img src="../../resources/img/reverseLinkedList3.png" height="350" width="400" >
+<div align="center"><img src="../../../resources/img/reverseLinkedList3.png" height="350" width="400" >
 
 3）第三步，如果有多个结点如何反转？
-<div align="center"><img src="../../resources/img/reverseLinkedList2.png" height="550" width="380" >
+<div align="center"><img src="../../../resources/img/reverseLinkedList2.png" height="550" width="380" >
 
 从图中可以看出，左侧的A->B->C->D->E，表示第一个结点到最后一个结点的走向，右侧的null->A->B->C->D，表示第一个结点前一个结点到最后一个结点前一个结点的走向，所以需要声明两个变量pre和cur：
 > pre: 表示前一个结点，是一个变量，从null开始循环，
