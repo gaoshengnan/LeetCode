@@ -10,7 +10,13 @@ import linkedlist.ListNode;
  */
 public class ReverseList {
 
-    public ListNode reverseList(ListNode head){
+    /**
+     * 迭代法
+     * @param head ：头结点
+     * @return
+     */
+    public ListNode reverseList1(ListNode head){
+
         if (head == null || head.next == null) {
             return head;
         }
@@ -20,21 +26,18 @@ public class ReverseList {
         ListNode next;
 
         while (cur != null){
-
-            //将当前结点的下一个结点赋值给next结点
+            //将当前结点指向的下一个结点存起来赋值给next结点
             next = cur.next;
-
-            //将当前结点的指针指向上一个结点
+            //开始改变当前结点的指针-->指向上一个结点
             cur.next = pre;
-
             //开始移动指针，pre --> 移动到 cur
             pre = cur;
-
-            //cur移动到最先赋值好的next
+            //cur移动到最先存好的next
             cur = next;
         }
 
-
         return pre;
     }
+
+
 }
