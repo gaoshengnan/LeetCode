@@ -26,9 +26,9 @@
 
 <div align="center"><img src="../../../resources/img/linkedListCycle/3.png" height="250" width="700" ></div>
 
-1）第1步，fast和low从A结点同时出发，fast每次走两个结点，low每次走一个结点
-2）第2步，fast经过A-B-C，走到C；low经过A-B，走到B
-3）第3步，fast经过C-A-B，走到B；low经过B-C，走到C
+> - 第1步，fast和low从A结点同时出发，fast每次走两个结点，low每次走一个结点
+> - 第2步，fast经过A-B-C，走到C；low经过A-B，走到B
+> - 第3步，fast经过C-A-B，走到B；low经过B-C，走到C
 然后fast继续经过B-C-A，low继续经过C-A，所以两个指针在A结点相遇，其中fast指针的路线A-B-C-A-B-C-A，low指针的路线A-B-C-A。
 
 #### 有环链表-示例2
