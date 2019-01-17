@@ -12,7 +12,6 @@ public class ListNode {
 
     public ListNode next; //指针域
 
-    ListNode(int data) {
-        this.data = data;
+    public ListNode() {
     }
 }
