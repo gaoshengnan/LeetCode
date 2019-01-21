@@ -5,7 +5,7 @@
 ### 题意：
 
 首先，我们以7个结点的链表为例，假设K等于3，那么反转前后链表如下图所示：
-<div align="center"><img src="/img/reverseNodeInKGroup/1.png" height="150" width="700" ></div>
+<div align="center"><img src="../../../resources/img/reverseNodeInKGroup/1.png" height="150" width="700" ></div>
 
 ### 第一轮K个结点反转
 > 注：以下所有思路，请参考上面[ReverseNodesInkGroup.java](https://github.com/gaoshengnan/LeetCode/tree/master/src/main/java/linkedlist/reverseList)里给出的推荐答案进行阅读。
