@@ -5,6 +5,8 @@ import linkedlist.ListNode;
 /**
  * @author Seina
  * @version 2019-01-15 21:07:00
+ *
+ * 判断链表是否有环，如果有，返回入环结点
  */
 public class LinkedListCycleII {
     public ListNode detectCycle(ListNode head) {
