@@ -8,7 +8,7 @@
 <div align="center"><img src="../../../resources/img/reverseNodeInKGroup/1.png" height="150" width="700" ></div>
 
 > 注：以下所有思路，请参考上面ReverseNodesInkGroup.java里给出的推荐答案进行阅读。
-> 还有head = pre == null ? cur : head，为了不扰乱整理逻辑，这句话暂时先不管，是用来标识时刻变化的链表的第一个结点，以便最后返回。
+> 还有推荐答案里的head = pre == null ? cur : head，为了不扰乱整理逻辑，这句话暂时先不管，是用来标识时刻变化的链表的第一个结点，以便最后返回。
 
 ### 第一轮K个结点反转
 
