@@ -91,7 +91,7 @@ type_size：存储的数据大小（比如int占4个字节）
 * 如果数据已经在链表中，先遍历找到这个数据对应的结点，将原来数据删除，然后把数据插入到链表的头部。
 * 如果数据不在链表中，要判断链表是否已经满了，如果未满，将数据插入到链表头部，如果已满，将链表尾结点删除，再将新的数据插入链表头部。
 
-<div align="center"><img src="/src/main/resources/img/readme/LRU.png" height="300" width="800" ></div>
+<div align="center"><img src="/src/main/resources/img/readme/LRU.png" height="270" width="850" ></div>
 
 时间复杂度分析的话，不管缓存满不满，我们都需要遍历一遍链表，所以是O(n)的时间复杂度。实际上可以引入散列表来记录每个数据的位置，将缓存访问的时间复杂度降低到O(1)，在后续散列表会详细说明。
 
