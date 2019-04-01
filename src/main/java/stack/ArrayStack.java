@@ -42,7 +42,6 @@ public class ArrayStack {
         stack.push("hehe");
         stack.push("yaya");
         String pop = stack.pop();
-        int count = stack.count;
 
     }
 }
