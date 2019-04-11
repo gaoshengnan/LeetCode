@@ -47,7 +47,6 @@ public class ArrayQueue {
         queue.enqueue("yaya");
         String temp = queue.dequeue();
         String temp2 = queue.dequeue();
-        String temp3 = queue.dequeue();
     }
 }
 
