@@ -20,10 +20,23 @@ public class ArrayQueue {
         this.n = capacity;
     }
 
-    //队尾入队
+
+    /**
+     * 队尾入队
+     * @param iterm: 入队元素
+     * @return 是否入队成功
+     *
+     *
+     */
     public boolean enqueue(String iterm) {
-        if (tail == n) {//队列已满，不可以入队
-            return false;
+        if (tail == n) {//tail指针走到指定大小的队列尾部
+            if (head == 0) return false; //head在头部，tail在尾部，队列全满，返回false，表示入队失败
+            //tail走到队尾，但是队列未满（head不是0）
+            for (int i = head ; i<tail; i++) {
+                iterms[i-head] = iterms[i];
+            }
+            tail -= head;
+            head = 0;
         }
         iterms[tail] = iterm;
         tail ++;
@@ -42,10 +55,11 @@ public class ArrayQueue {
 
 
     public static void main(String[] args) {
-        ArrayQueue queue = new ArrayQueue(4);
+        ArrayQueue queue = new ArrayQueue(2);
         queue.enqueue("haha");
-        queue.enqueue("yaya");
         String temp = queue.dequeue();
+        queue.enqueue("yaya");
+        boolean result = queue.enqueue("yaya");
         String temp2 = queue.dequeue();
     }
 }
