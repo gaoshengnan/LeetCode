@@ -1,4 +1,4 @@
-package leetcode.linkedlist.swapNodesInPairs;
+package leetcode.linkedlist.leetcode_24;
 
 import leetcode.linkedlist.ListNode;
 

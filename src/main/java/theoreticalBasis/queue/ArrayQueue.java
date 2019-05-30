@@ -1,4 +1,4 @@
-package leetcode.queue;
+package theoreticalBasis.queue;
 
 /**
  * @author Seina

@@ -1,4 +1,4 @@
-package leetcode.array;
+package leetcode.array.leetcode_70;
 
 /**
  * @author Seina

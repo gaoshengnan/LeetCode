@@ -1,4 +1,4 @@
-package leetcode.linkedlist.linkedListCycle;
+package leetcode.linkedlist.leetcode_141;
 
 import leetcode.linkedlist.ListNode;
 

@@ -1,4 +1,4 @@
-package leetcode.linkedlist.leetCode83;
+package leetcode.linkedlist.leetcode_83;
 
 import leetcode.linkedlist.ListNode;
 

@@ -1,4 +1,4 @@
-package leetcode.stack.ImplementQueueUsingStacks;
+package leetcode.stack.leetcode_232;
 
 import java.util.Stack;
 
@@ -14,13 +14,13 @@ public class ImplementQueueUsingStacks {
     Stack<Integer> stackB = new Stack<Integer>();
 
 
-    /** Push element x to the back of leetcode.queue. */
+    /** Push element x to the back of theoreticalBasis.queue. */
     /** 将元素推到队列的尾部--->往队列里面添加一个元素（push往尾部推） */
     public void push(int x) {
         stackA.push(x);
     }
 
-    /** Removes the element from in front of leetcode.queue and returns that element. */
+    /** Removes the element from in front of theoreticalBasis.queue and returns that element. */
     /** 从队列首部移除元素，并且返回这个元素--->移除元素（pop从首部往外蹦） */
     public int pop() {
         for (int i : stackA) {
@@ -35,7 +35,7 @@ public class ImplementQueueUsingStacks {
         return stackB.pop();
     }
 
-    /** Returns whether the leetcode.queue is empty. */
+    /** Returns whether the theoreticalBasis.queue is empty. */
     /** 返回队列是否为null */
     public boolean empty() {
         return true;

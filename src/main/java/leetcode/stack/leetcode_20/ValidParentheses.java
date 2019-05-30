@@ -1,4 +1,4 @@
-package leetcode.stack.validParentheses;
+package leetcode.stack.leetcode_20;
 
 /**
  * @author Seina
