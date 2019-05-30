@@ -7,7 +7,7 @@
 根据题意给出链表图，红色框框表示链表的第一个结点，在本题中即是head：
 
 反转前：
-<div align="center"><img src="../../../resources/img/leetcode206b.png" height="120" width="700" ></div>
+<div align="center"><img src="../../../../resources/img/leetcode206b.png" height="120" width="700" ></div>
 反转后：
 <div align="center"><img src="../../../../resources/img/leetcode206a.png" height="120" width="700" ></div>
 
