@@ -7,20 +7,20 @@
 根据题意给出链表图，红色框框表示链表的第一个结点，在本题中即是head：
 
 反转前：
-<div align="center"><img src="../../../resources/img/leetcode206b.png" height="120" width="700" ></div>
+<div align="center"><img src="../../../../resources/img/leetcode206b.png" height="120" width="700" ></div>
 反转后：
-<div align="center"><img src="../../../resources/img/leetcode206a.png" height="120" width="700" ></div>
+<div align="center"><img src="../../../../resources/img/leetcode206a.png" height="120" width="700" ></div>
 
 ### 单链表反转步骤 -- 迭代法
 
 1）第一步，判断第一个结点head是否为空，如果为空，表示是个空链表，直接返回head（null）；又或者head.next为空，表示链表只有一个结点，直接返回head
-<div align="center"><img src="../../../resources/img/reverseLinkedList1.png" height="250" width="600" ></div>
+<div align="center"><img src="../../../../resources/img/reverseLinkedList1.png" height="250" width="600" ></div>
 
 2）第二步，如果一个链表只有两个结点该怎么反转？那就是A结点变成最后一个结点，B结点变成第一个结点，所以A指向null，B指向A
-<div align="center"><img src="../../../resources/img/reverseLinkedList3.png" height="350" width="600" ></div>
+<div align="center"><img src="../../../../resources/img/reverseLinkedList3.png" height="350" width="600" ></div>
 
 3）第三步，如果有多个结点如何反转？核心代码就是cur.next = pre
-<div align="center"><img src="../../../resources/img/reverseLinkedList2.png" height="380" width="700" ></div>
+<div align="center"><img src="../../../../resources/img/reverseLinkedList2.png" height="380" width="700" ></div>
 
 从图中可以看出，左侧的A->B->C->D->E，表示第一个结点到最后一个结点的走向，右侧的null->A->B->C->D，表示第一个结点前一个结点到最后一个结点前一个结点的走向，所以需要声明两个变量pre和cur：
 > - pre: 表示前一个结点，是一个变量，从null开始循环，
