@@ -5,10 +5,10 @@
 ### 二、题意解析：
 
 1、首先如果一个单链表没有环，最后一个结点指向null，如下图1所示：
-<div align="center"><img src="../../../resources/img/linkedListCycle/1.png" height="130" width="700" ></div>
+<div align="center"><img src="../../../../resources/img/linkedListCycle/1.png" height="130" width="700" ></div>
 2、但是如果一个链表有环，以下是我能想到有环的三种情况，如下图2所示：
 
-<div align="center"><img src="../../../resources/img/linkedListCycle/2.png" height="330" width="700" ></div>
+<div align="center"><img src="../../../../resources/img/linkedListCycle/2.png" height="330" width="700" ></div>
   
 ### 三、简单描述前两种解法 
 
@@ -25,7 +25,7 @@
 
 图2中第一个简单的有环链表，蓝色圆圈fast代表快指针，红色小心心low代表慢指针，如图3所示：
 
-<div align="center"><img src="../../../resources/img/linkedListCycle/3.png" height="250" width="700" ></div>
+<div align="center"><img src="../../../../resources/img/linkedListCycle/3.png" height="250" width="700" ></div>
 
 > - 第1步，fast和low从A结点同时出发，fast每次走两个结点，low每次走一个结点
 > - 第2步，fast经过A-B-C，走到C；low经过A-B，走到B
@@ -35,12 +35,12 @@
 #### 有环链表-示例2
 看图2中的第二个有环的链表，如下图4所示：(此处不再详细画出)
 
-<div align="center"><img src="../../../resources/img/linkedListCycle/4.png" height="350" width="700" ></div>
+<div align="center"><img src="../../../../resources/img/linkedListCycle/4.png" height="350" width="700" ></div>
 
 由上图4可以看出，fast指针在E结点处拐弯，两次经过E结点拐弯，最终在I结点和low相遇。
 
 #### 有环链表-示例3
 图2中第三个有环的链表，如下图5所示：
 
-<div align="center"><img src="../../../resources/img/linkedListCycle/5.png" height="300" width="600" ></div>
+<div align="center"><img src="../../../../resources/img/linkedListCycle/5.png" height="300" width="600" ></div>
 
