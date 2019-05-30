@@ -1,6 +1,6 @@
-package linkedlist.swapNodesInPairs;
+package leetcode.linkedlist.swapNodesInPairs;
 
-import linkedlist.ListNode;
+import leetcode.linkedlist.ListNode;
 
 /**
  * @author Seina

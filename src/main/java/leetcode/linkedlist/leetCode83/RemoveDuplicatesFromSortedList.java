@@ -1,6 +1,6 @@
-package linkedlist.leetCode83;
+package leetcode.linkedlist.leetCode83;
 
-import linkedlist.ListNode;
+import leetcode.linkedlist.ListNode;
 
 /**
  * @author Seina

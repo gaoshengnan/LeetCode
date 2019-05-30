@@ -1,4 +1,4 @@
-package linkedlist;
+package leetcode.linkedlist;
 
 /**
  * @author Seina

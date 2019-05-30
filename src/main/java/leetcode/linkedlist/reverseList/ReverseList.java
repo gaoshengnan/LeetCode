@@ -1,6 +1,6 @@
-package linkedlist.reverseList;
+package leetcode.linkedlist.reverseList;
 
-import linkedlist.ListNode;
+import leetcode.linkedlist.ListNode;
 
 /**
  * @author Seina

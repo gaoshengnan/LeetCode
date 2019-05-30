@@ -1,6 +1,6 @@
-package linkedlist.leetCode21;
+package leetcode.linkedlist.leetCode21;
 
-import linkedlist.ListNode;
+import leetcode.linkedlist.ListNode;
 
 /**
  * @author Seina

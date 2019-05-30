@@ -1,4 +1,4 @@
-package stack;
+package leetcode.stack;
 
 /**
  * @author Seina

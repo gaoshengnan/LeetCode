@@ -1,4 +1,4 @@
-package stack.validParentheses;
+package leetcode.stack.validParentheses;
 
 /**
  * @author Seina

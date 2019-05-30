@@ -1,6 +1,6 @@
-package linkedlist.linkedListCycleII;
+package leetcode.linkedlist.linkedListCycleII;
 
-import linkedlist.ListNode;
+import leetcode.linkedlist.ListNode;
 
 /**
  * @author Seina
