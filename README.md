@@ -18,7 +18,7 @@
 [【24】swap_nodes_in_pairs  两两交换链表中的结点](https://github.com/gaoshengnan/LeetCode/tree/master/src/main/java/leetcode/linkedlist/leetcode_24)  
 [【25】reverse_nodes_in_k_group_K  个一组反转链表](https://github.com/gaoshengnan/LeetCode/tree/master/src/main/java/leetcode/linkedlist/leetcode_25)  
 [【232】implement_queue_using_stacks  使用栈实现队列](https://github.com/gaoshengnan/LeetCode/tree/master/src/main/java/leetcode/stack/leetcode_232)  
-[【20】valid_parentheses  有效括号](https://github.com/gaoshengnan/LeetCode/tree/master/src/main/java/stack/validParentheses)
+[【20】valid_parentheses  有效括号](https://github.com/gaoshengnan/LeetCode/tree/master/src/main/java/stack/validParentheses)  
 [【83】remove_duplicates_from_sorted_list  删除排序链表中重复元素](https://github.com/gaoshengnan/LeetCode/tree/master/src/main/java/leetcode/linkedlist/leetcode_83)
 
 
