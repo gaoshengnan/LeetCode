@@ -5,8 +5,7 @@
 > 对勾表示已有题解，剩余计划在 30 日之前全部更新完
 
 实战题目 - Array
-- [ ] [283] 移动零  
-    * 地址：https://leetcode-cn.com/problems/move-zeroes/
+- [ ] [[283] 移动零](https://leetcode-cn.com/problems/move-zeroes/)
 
 - [ ] [70] 爬楼梯  
 地址：https://leetcode.com/problems/climbing-stairs/
