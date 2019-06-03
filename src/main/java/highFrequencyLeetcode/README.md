@@ -53,7 +53,6 @@
 - [ ] [[590] N叉树的后序遍历  ](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/description/ )  
 
 
-
 > 实战题目 - 分治
 - [ ] [[17] 电话号码的字母组合  ](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)   
 - [ ] [[50] Pow(x, n)  ](https://leetcode-cn.com/problems/powx-n/description/)    
@@ -72,9 +71,9 @@
 
 
 > 实战题目 - 剪枝
-- [ ] [[36】 有效的数独 ](https://leetcode-cn.com/problems/valid-sudoku/description/)   
-- [ ] [[37】 解数独 ](https://leetcode-cn.com/problems/sudoku-solver/#/description)   
-- [ ] [[51】 N皇后 ](https://leetcode-cn.com/problems/n-queens/)   
+- [ ] [[3]  有效的数独 ](https://leetcode-cn.com/problems/valid-sudoku/description/)   
+- [ ] [[37]  解数独 ](https://leetcode-cn.com/problems/sudoku-solver/#/description)   
+- [ ] [[51]  N皇后 ](https://leetcode-cn.com/problems/n-queens/)   
 
 
 > 实战题目 - 二分查找
@@ -88,3 +87,77 @@
 - [ ] [[455] 分发饼干  ](https://leetcode-cn.com/problems/assign-cookies/description/)   
 - [ ] [[860] 柠檬水找零  ](https://leetcode-cn.com/problems/lemonade-change/description/)   
 - [ ] [[874] 模拟行走机器人  ](https://leetcode-cn.com/problems/walking-robot-simulation/description/)   
+
+> 实战题目 - 动态规划
+
+- [ ] [[121] 买卖股票的最佳时机 ](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/#/description)    
+- [ ] [[120] 三角形最小路径和  ](https://leetcode-cn.com/problems/triangle/description/)    
+- [ ] [[152] 乘积最大子序列  ](https://leetcode-cn.com/problems/maximum-product-subarray/description/)    
+- [ ] [[322] 零钱兑换  ](https://leetcode-cn.com/problems/coin-change/description/)  
+- [ ] [[518] 零钱兑换 II ](https://leetcode-cn.com/problems/coin-change-2/)    
+  
+
+- [ ] [[198] 打家劫舍 ](https://leetcode-cn.com/problems/house-robber/)    
+- [ ] [[213] 打家劫舍 II  ](https://leetcode-cn.com/problems/house-robber-ii/description/ )    
+- [ ] [[122] 买卖股票的最佳时机 II  ](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)    
+- [ ] [[123] 买卖股票的最佳时机 III ](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/)    
+- [ ] [[309] 最佳买卖股票时机含冷冻期  ](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)    
+- [ ] [[188] 买卖股票的最佳时机 IV  ](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/)    
+- [ ] [[714] 买卖股票的最佳时机含手续费  ](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)    
+
+- [ ] [[279] 完全平方数 ](https://leetcode-cn.com/problems/perfect-squares/)    
+- [ ] [[312] 戳气球  ](https://leetcode-cn.com/problems/burst-balloons/)    
+- [ ] [[55] 跳跃游戏  ](https://leetcode-cn.com/problems/jump-game/)    
+- [ ] [[45] 跳跃游戏 II  ](https://leetcode-cn.com/problems/jump-game-ii/)    
+- [ ] [[62] 不同路径  ](https://leetcode-cn.com/problems/unique-paths/)    
+- [ ] [[63] 不同路径 II ](https://leetcode-cn.com/problems/unique-paths-ii/)    
+- [ ] [[980] 不同路径 III  ](https://leetcode-cn.com/problems/unique-paths-iii/)    
+
+- [ ] [[32] 最长有效括号  ](https://leetcode-cn.com/problems/longest-valid-parentheses/)    
+- [ ] [[64] 最小路径和  ](https://leetcode-cn.com/problems/minimum-path-sum/)    
+- [ ] [[72] 编辑距离  ](https://leetcode-cn.com/problems/edit-distance/)    
+- [ ] [[91] 解码方法 ](https://leetcode-cn.com/problems/decode-ways)    
+- [ ] [[221] 最大正方形  ](https://leetcode-cn.com/problems/maximal-square/)    
+- [ ] [[363] 矩形区域不超过 K 的最大数值和  ](https://leetcode-cn.com/problems/max-sum-of-rectangle-no-larger-than-k/)    
+- [ ] [[403] 青蛙过河  ](https://leetcode-cn.com/problems/frog-jump/)    
+- [ ] [[410] 分割数组的最大值  ](https://leetcode-cn.com/problems/split-array-largest-sum)    
+- [ ] [[  ](https://leetcode-cn.com/problems/student-attendance-record-ii/)    
+- [ ] [[  ](https://leetcode-cn.com/problems/task-scheduler/)    
+- [ ] [[  ](https://leetcode-cn.com/problems/palindromic-substrings/)    
+- [ ] [[  ](https://leetcode-cn.com/problems/minimum-window-substring/)    
+
+
+
+
+
+
+
+
+
+
+- [ ] [[  ]()    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
