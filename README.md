@@ -11,15 +11,15 @@
 #### 二、练习题目
 该项目 LeetCode 主要包括：leetcode 推荐答案+详细备注+算法题思路说明文档。相关题目及答案如下链接：
 
-
-[【206】reverse_linked_list  反转链表](https://github.com/gaoshengnan/LeetCode/tree/master/src/main/java/leetcode/linkedlist/leetcode_206)  
-[【141】linked_list_cycle  环形链表（判断是否有环）](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/leetcode/linkedlist/leetcode_141/LinkedListCycle.java)  
-[【142】linked_list_cycle_ii  环形链表II（如果有环，返回入环结点）](https://github.com/gaoshengnan/LeetCode/tree/master/src/main/java/leetcode/linkedlist/leetcode_142)  
+[【20】valid_parentheses  有效括号](https://github.com/gaoshengnan/LeetCode/tree/master/src/main/java/stack/validParentheses)  
 [【24】swap_nodes_in_pairs  两两交换链表中的结点](https://github.com/gaoshengnan/LeetCode/tree/master/src/main/java/leetcode/linkedlist/leetcode_24)  
 [【25】reverse_nodes_in_k_group_K  个一组反转链表](https://github.com/gaoshengnan/LeetCode/tree/master/src/main/java/leetcode/linkedlist/leetcode_25)  
+[【83】remove_duplicates_from_sorted_list  删除排序链表中重复元素](https://github.com/gaoshengnan/LeetCode/tree/master/src/main/java/leetcode/linkedlist/leetcode_83)  
+[【141】linked_list_cycle  环形链表（判断是否有环）](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/leetcode/linkedlist/leetcode_141/LinkedListCycle.java)  
+[【142】linked_list_cycle_ii  环形链表II（如果有环，返回入环结点）](https://github.com/gaoshengnan/LeetCode/tree/master/src/main/java/leetcode/linkedlist/leetcode_142)  
+[【206】reverse_linked_list  反转链表](https://github.com/gaoshengnan/LeetCode/tree/master/src/main/java/leetcode/linkedlist/leetcode_206)  
 [【232】implement_queue_using_stacks  使用栈实现队列](https://github.com/gaoshengnan/LeetCode/tree/master/src/main/java/leetcode/stack/leetcode_232)  
-[【20】valid_parentheses  有效括号](https://github.com/gaoshengnan/LeetCode/tree/master/src/main/java/stack/validParentheses)  
-[【83】remove_duplicates_from_sorted_list  删除排序链表中重复元素](https://github.com/gaoshengnan/LeetCode/tree/master/src/main/java/leetcode/linkedlist/leetcode_83)
+
 
 
 > 持续更新中。。。
