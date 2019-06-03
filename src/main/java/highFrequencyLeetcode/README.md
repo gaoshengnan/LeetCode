@@ -4,7 +4,7 @@
 
 > 实战题目 - Array
 
-- [ ] [[11] 盛最多水的容器  ](https://leetcode-cn.com/problems/container-with-most-water/)  
+- [x] [[11] 盛最多水的容器  ](https://leetcode-cn.com/problems/container-with-most-water/)  
 - [ ] [[26] 删除排序数组中的重复项  ](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) 
 - [ ] [[66] 加一  ](https://leetcode-cn.com/problems/plus-one/)  
 - [ ] [[70] 爬楼梯  ](https://leetcode-cn.com/problems/climbing-stairs/)  
