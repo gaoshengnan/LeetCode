@@ -25,9 +25,9 @@ public class TrappingRainWater42 {
         int[] testcase = new int[]{2, 0, 2}; // 0, 2, 0
         System.out.println("FORCE=" + bruteForce(testcase));
         System.out.println();
-        System.out.println("DPONE=" + dpOne(testcase));
+        System.out.println("DP_ONE=" + dpOne(testcase));
         System.out.println();
-        System.out.println("DPTWO=" + dpTwo(testcase));
+        System.out.println("DP_TWO=" + dpTwo(testcase));
         System.out.println();
         System.out.println("STACK=" + stack(testcase));
     }
@@ -103,25 +103,25 @@ public class TrappingRainWater42 {
      * 自己学习 思考 实践时的难点(难点是如何突破的见wiki)：<p>
      * &nbsp;&nbsp;虽然用dp存储了一些计算结果，但还是和暴力一样遍历了两次，如何减少循环次数？<p>
      *
-     * @param h
+     * @param columns
      * @return
      */
-    public static int dpTwo(int[] h) {
-        int result = 0, left = 0, right = h.length - 1;
+    public static int dpTwo(int[] columns) {
+        int result = 0, left = 0, right = columns.length - 1;
         int maxl = 0, maxr = 0;
         while (left < right) {
-            if (h[left] < h[right]) {
-                if (h[left] >= maxl) {
-                    maxl = h[left];
+            if (columns[left] < columns[right]) {
+                if (columns[left] >= maxl) {
+                    maxl = columns[left];
                 } else {
-                    result += (maxl - h[left]);
+                    result += (maxl - columns[left]);
                 }
                 ++left;
             } else {
-                if (h[right] >= maxr) {
-                    maxr = h[right];
+                if (columns[right] >= maxr) {
+                    maxr = columns[right];
                 } else {
-                    result += (maxr - h[right]);
+                    result += (maxr - columns[right]);
                 }
                 --right;
             }
