@@ -12,7 +12,7 @@ import java.util.Stack;
  * 4 写题 -> 优化 多种解法 | 记录在leetcode提交
  * <p>
  * 题解方案topics：
- * dp、stack、双指针
+ * array、双指针、stack
  *
  * @author li tong
  * @date 2019/6/3 10:18
