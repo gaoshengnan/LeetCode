@@ -24,7 +24,7 @@
 - [ ] [[1] 两数之和  ](https://leetcode-cn.com/problems/two-sum/) 
 - [ ] [[15] 三数之和  ](https://leetcode-cn.com/problems/3sum/) 
 - [ ] [[20] 有效的括号  ](https://leetcode-cn.com/problems/valid-parentheses/description/)  
-- [ ] [[42] 接雨水  ](https://leetcode-cn.com/problems/trapping-rain-water/)  
+- [x] [[42] 接雨水  ](https://leetcode-cn.com/problems/trapping-rain-water/)  
 - [ ] [[49] 字母异位词分组  ](https://leetcode-cn.com/problems/group-anagrams/)  
 - [ ] [[84] 柱状图中最大的矩形  ](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)  
 - [ ] [[155] 最小栈  ](https://leetcode-cn.com/problems/min-stack/)      
