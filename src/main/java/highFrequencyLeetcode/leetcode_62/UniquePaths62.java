@@ -1,4 +1,4 @@
-package leetcode.dp.leetcode_62;
+package highFrequencyLeetcode.leetcode_62;
 
 /**
  * (注解文档查看快捷键 选中类名或方法名 按ctrl + Q)

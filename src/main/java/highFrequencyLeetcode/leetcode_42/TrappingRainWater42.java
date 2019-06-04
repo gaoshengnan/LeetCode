@@ -1,4 +1,4 @@
-package leetcode.stack.leetcode_42;
+package highFrequencyLeetcode.leetcode_42;
 
 import java.util.Stack;
 
