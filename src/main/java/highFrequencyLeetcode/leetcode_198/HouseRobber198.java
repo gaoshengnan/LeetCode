@@ -1,6 +1,7 @@
 package highFrequencyLeetcode.leetcode_198;
 
 /**
+ * EASY
  * (注解文档查看快捷键 选中类名或方法名 按ctrl + Q)
  * <p>
  * 思维全过程记录方案：<p>
@@ -18,7 +19,7 @@ package highFrequencyLeetcode.leetcode_198;
  * dp
  *
  * @author li tong
- * @date 2019/6/6 9:41
+ * @date 2019/6/7 9:41
  * @see Object
  * @since 1.0
  */
