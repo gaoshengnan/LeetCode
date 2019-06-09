@@ -6,6 +6,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
+ * Medium
  * (注解文档查看快捷键 选中类名或方法名 按ctrl + Q)
  * <p>
  * 思维全过程记录方案：<p>

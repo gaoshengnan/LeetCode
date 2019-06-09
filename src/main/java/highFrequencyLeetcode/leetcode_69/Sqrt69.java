@@ -1,6 +1,7 @@
 package highFrequencyLeetcode.leetcode_69;
 
 /**
+ * Easy
  * (注解文档查看快捷键 选中类名或方法名 按ctrl + Q)
  * <p>
  * 思维全过程记录方案：<p>
