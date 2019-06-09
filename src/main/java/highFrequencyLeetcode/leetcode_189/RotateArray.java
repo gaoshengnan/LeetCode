@@ -1,5 +1,7 @@
 package highFrequencyLeetcode.leetcode_189;
 
+import com.sun.source.tree.WhileLoopTree;
+
 /**
  * <p>
  *
@@ -33,7 +35,12 @@ package highFrequencyLeetcode.leetcode_189;
  */
 public class RotateArray {
 
-    public void rotate(int[] nums, int k) {
+    /**
+     * 解法1
+     * 时间复杂度：O(kn)
+     * 空间复杂度：O(1)
+     */
+    public void rotate1(int[] nums, int k) {
         int n = nums.length;
         k %= n;
         for (int i = 0; i < k; i++){
@@ -42,6 +49,28 @@ public class RotateArray {
                 nums[j] = nums[j - 1];
             }
             nums[0] = temp;//将暂存的元素复制给 nums[0]
+        }
+    }
+
+    /**
+     * 解法2
+     * 时间复杂度：O(n)
+     * 空间复杂度：O(1)
+     */
+    public void rotate2(int[] nums, int k) {
+        int n = nums.length;
+        k %= n;
+        //先整体翻转，再局部排序
+        reverse(nums, 0, n - 1);//[7, 6, 5, 4, 3, 2, 1]
+        reverse(nums, 0, k - 1);//[5, 6, 7, 4, 3, 2, 1]
+        reverse(nums, k, n - 1);      //[5, 6, 7, 1, 2, 3, 4]
+
+    }
+    private void reverse(int[] nums, int start, int end){
+        while (start < end) {
+            int temp = nums[start];
+            nums[start++] = nums[end];
+            nums[end--] = temp;
         }
     }
 
