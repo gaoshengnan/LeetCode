@@ -142,7 +142,7 @@ public class TrappingRainWater42 {
      */
     public static int stack(int[] columns) {
         int result = 0, cursor = 0, length = columns.length;
-        Stack<Integer> stack = new Stack<>();
+        Stack<Integer> stack = new Stack<Integer>();
         while (cursor < length) {
 //            System.out.print("CURSOR" + cursor + "->");
 //            System.out.print("COLUMN");
