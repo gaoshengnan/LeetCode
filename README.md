@@ -31,7 +31,7 @@
 - [ ] [[206] 反转链表  ](https://leetcode.com/problems/reverse-linked-list/ ) 
 
 > 其他实战题目
-- [ ] [[1] 两数之和  ](https://leetcode-cn.com/problems/two-sum/) 
+- [x] [[1] 两数之和  ](https://leetcode-cn.com/problems/two-sum/) 
 - [ ] [[15] 三数之和  ](https://leetcode-cn.com/problems/3sum/) 
 - [ ] [[20] 有效的括号  ](https://leetcode-cn.com/problems/valid-parentheses/description/)  
 - [ ] [[42] 接雨水  ](https://leetcode-cn.com/problems/trapping-rain-water/)  
