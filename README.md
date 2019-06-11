@@ -11,7 +11,7 @@
 ### 二、理论基础知识
 [数组](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/theoreticalBasis/%E5%B8%B8%E8%A7%81%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/1.%E6%95%B0%E7%BB%84.md)  [链表](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/theoreticalBasis/%E5%B8%B8%E8%A7%81%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/2.%E9%93%BE%E8%A1%A8.md)  [栈](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/theoreticalBasis/%E5%B8%B8%E8%A7%81%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/3.%E6%A0%88.md)  [跳表](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/theoreticalBasis/%E5%B8%B8%E8%A7%81%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/4.%E8%B7%B3%E8%A1%A8.md)  [散列表](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/theoreticalBasis/%E5%B8%B8%E8%A7%81%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/5.%E6%95%A3%E5%88%97%E8%A1%A8.md)  [递归](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/theoreticalBasis/%E9%80%92%E5%BD%92.md)  
 
-### 二、面试常考算法题系列
+### 三、面试常考算法题系列
 
 > 总计：101 
 > 已完成：10
@@ -26,7 +26,7 @@
 - [ ] [[70] 爬楼梯  ](https://leetcode-cn.com/problems/climbing-stairs/)  
 - [x] [[88] 合并两个有序数组  ](https://leetcode-cn.com/problems/merge-sorted-array/) 
 - [x] [[189] 旋转数组  ](https://leetcode-cn.com/problems/rotate-array/) 
-- [ ] [[283] 移动零](https://leetcode-cn.com/problems/move-zeroes/)  
+- [x] [[283] 移动零](https://leetcode-cn.com/problems/move-zeroes/)  
 
 > 实战题目 - Linked List
 - [ ] [[21] 合并两个有序链表  ](https://leetcode-cn.com/problems/merge-two-sorted-lists/) 
