@@ -1,4 +1,4 @@
-package leetcode.linkedlist.leetcode_206;
+package highFrequencyLeetcode.leetcode_206;
 
 import leetcode.linkedlist.ListNode;
 

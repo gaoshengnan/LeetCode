@@ -24,11 +24,11 @@
 
 > 实战题目 - Linked List
 - [ ] [[21] 合并两个有序链表  ](https://leetcode-cn.com/problems/merge-two-sorted-lists/) 
-- [ ] [[24] 两两交换链表中的节点  ](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) 
-- [ ] [[25] K 个一组翻转链表  ](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) 
-- [ ] [[141] 环形链表  ](https://leetcode-cn.com/problems/linked-list-cycle/) 
-- [ ] [[142] 环形链表|| ](https://leetcode-cn.com/problems/linked-list-cycle-ii/) 
-- [ ] [[206] 反转链表  ](https://leetcode.com/problems/reverse-linked-list/ ) 
+- [x] [[24] 两两交换链表中的节点  ](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) 
+- [x] [[25] K 个一组翻转链表  ](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) 
+- [x] [[141] 环形链表  ](https://leetcode-cn.com/problems/linked-list-cycle/) 
+- [x] [[142] 环形链表|| ](https://leetcode-cn.com/problems/linked-list-cycle-ii/) 
+- [x] [[206] 反转链表  ](https://leetcode.com/problems/reverse-linked-list/ ) 
 
 > 其他实战题目
 - [x] [[1] 两数之和  ](https://leetcode-cn.com/problems/two-sum/) 
