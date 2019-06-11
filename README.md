@@ -32,7 +32,7 @@
 - [x] ☀️[[283] 移动零](https://leetcode-cn.com/problems/move-zeroes/)  
 
 > 实战题目 - Linked List
-- [ ] [21] 合并两个有序链表  ](https://leetcode-cn.com/problems/merge-two-sorted-lists/) 
+- [ ] [[21] 合并两个有序链表  ](https://leetcode-cn.com/problems/merge-two-sorted-lists/) 
 - [x] ☁️[[24] 两两交换链表中的节点  ](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) 
 - [x] 🙈[[25] K 个一组翻转链表  ](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) 
 - [x] ☀️[[141] 环形链表  ](https://leetcode-cn.com/problems/linked-list-cycle/) 
