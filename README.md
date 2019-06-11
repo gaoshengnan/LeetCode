@@ -19,7 +19,7 @@
 
 - [ ] [[11] 盛最多水的容器  ](https://leetcode-cn.com/problems/container-with-most-water/)  
 - [x] [[26] 删除排序数组中的重复项  ](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) 
-- [ ] [[66] 加一  ](https://leetcode-cn.com/problems/plus-one/)  
+- [x] [[66] 加一  ](https://leetcode-cn.com/problems/plus-one/)  
 - [ ] [[70] 爬楼梯  ](https://leetcode-cn.com/problems/climbing-stairs/)  
 - [x] [[88] 合并两个有序数组  ](https://leetcode-cn.com/problems/merge-sorted-array/) 
 - [x] [[189] 旋转数组  ](https://leetcode-cn.com/problems/rotate-array/) 
@@ -31,7 +31,7 @@
 - [x] [[25] K 个一组翻转链表  ](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) 
 - [x] [[141] 环形链表  ](https://leetcode-cn.com/problems/linked-list-cycle/) 
 - [x] [[142] 环形链表|| ](https://leetcode-cn.com/problems/linked-list-cycle-ii/) 
-- [x] [[206] 反转链表  ](https://leetcode.com/problems/reverse-linked-list/ ) 
+- [x] [[206] 反转链表  ](https://leetcode.com/problems/reverse-linked-list/) 
 
 > 其他实战题目
 - [x] [[1] 两数之和  ](https://leetcode-cn.com/problems/two-sum/) 
