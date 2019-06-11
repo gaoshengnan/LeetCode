@@ -32,7 +32,7 @@
 
 > 其他实战题目
 - [x] [[1] 两数之和  ](https://leetcode-cn.com/problems/two-sum/) 
-- [ ] [[15] 三数之和  ](https://leetcode-cn.com/problems/3sum/) 
+- [x] [[15] 三数之和  ](https://leetcode-cn.com/problems/3sum/) 
 - [ ] [[20] 有效的括号  ](https://leetcode-cn.com/problems/valid-parentheses/description/)  
 - [ ] [[42] 接雨水  ](https://leetcode-cn.com/problems/trapping-rain-water/)  
 - [ ] [[49] 字母异位词分组  ](https://leetcode-cn.com/problems/group-anagrams/)  
