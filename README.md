@@ -8,6 +8,14 @@
 
 > 学习路线加强巩固数据结构基础知识，通过 leetcode 算法题加深对数据结构的理解。
 
+### 二、理论基础知识
+[数组](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/theoreticalBasis/%E5%B8%B8%E8%A7%81%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/1.%E6%95%B0%E7%BB%84.md)  
+[链表](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/theoreticalBasis/%E5%B8%B8%E8%A7%81%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/2.%E9%93%BE%E8%A1%A8.md)  
+[栈](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/theoreticalBasis/%E5%B8%B8%E8%A7%81%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/3.%E6%A0%88.md)  
+[跳表](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/theoreticalBasis/%E5%B8%B8%E8%A7%81%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/4.%E8%B7%B3%E8%A1%A8.md)  
+[散列表](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/theoreticalBasis/%E5%B8%B8%E8%A7%81%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/5.%E6%95%A3%E5%88%97%E8%A1%A8.md)  
+[递归](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/theoreticalBasis/%E9%80%92%E5%BD%92.md)  
+
 ### 二、面试常考算法题系列
 
 > 总计：101 
@@ -36,7 +44,7 @@
 > 其他实战题目
 - [x] [[1] 两数之和  ](https://leetcode-cn.com/problems/two-sum/) 
 - [x] [[15] 三数之和  ](https://leetcode-cn.com/problems/3sum/) 
-- [ ] [[20] 有效的括号  ](https://leetcode-cn.com/problems/valid-parentheses/description/)  
+- [x] [[20] 有效的括号  ](https://leetcode-cn.com/problems/valid-parentheses/description/)  
 - [ ] [[42] 接雨水  ](https://leetcode-cn.com/problems/trapping-rain-water/)  
 - [ ] [[49] 字母异位词分组  ](https://leetcode-cn.com/problems/group-anagrams/)  
 - [ ] [[84] 柱状图中最大的矩形  ](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)  
