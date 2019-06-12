@@ -56,7 +56,7 @@
 |  20  | 简单 | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/description/) | [valid parenthese](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_20/ValidParentheses.java) |    ✅     |
 |  42  | 困难 | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) |                                                              |    ❎     |
 |  49  | 中等 | [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) |                                                              |    ❎     |
-|  84  | 困难 | [柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)    |                                                              |    ❎     |
+|  84  | 困难 | [柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)&ensp;|                                                              |    ❎     |
 | 155  | 简单 | [最小栈](https://leetcode-cn.com/problems/min-stack/)        |                                                              |    ❎     |
 | 239  | 困难 | [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) |                                                              |    ❎     |
 | 242  | 简单 | [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/description/) |                                                              |    ❎     |
