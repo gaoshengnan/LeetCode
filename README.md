@@ -23,13 +23,16 @@
 
 > 实战题目 - Array
 
-- [ ] [[11] 盛最多水的容器  ](https://leetcode-cn.com/problems/container-with-most-water/)  
-- [x] [[26] 删除排序数组中的重复项  ](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) 
-- [x] [[66] 加一  ](https://leetcode-cn.com/problems/plus-one/)  
-- [x] [[70] 爬楼梯  ](https://leetcode-cn.com/problems/climbing-stairs/)  
-- [x] [[88] 合并两个有序数组  ](https://leetcode-cn.com/problems/merge-sorted-array/) 
-- [x] [[189] 旋转数组  ](https://leetcode-cn.com/problems/rotate-array/) 
-- [x] [[283] 移动零](https://leetcode-cn.com/problems/move-zeroes/)  
+| 题号 | 难度 | 题目链接                                                     | 答案链接                                                     | 是否完成 |
+| :--: | :--: | :----------------------------------------------------------- | :----------------------------------------------------------- | :------: |
+|  11  | 中等 | [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) |                                                              |    ❎     |
+|  26  | 简单 | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [remove Duplicates from sorted array](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_26/RemoveDuplicatesFromSortedArray.java) |    ✅     |
+|  66  | 简单 | [加一](https://leetcode-cn.com/problems/plus-one/)           | [plus one](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_66/PlusOne.java) |    ✅     |
+|  70  | 简单 | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)  | [climbing stairs](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_70/ClimbingStairs.java) |    ✅     |
+|  88  | 简单 | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) | [merge sorted array](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_88/MergeSortedArray.java) |    ✅     |
+| 189  | 简单 | [旋转数组](https://leetcode-cn.com/problems/rotate-array/)   | [rotate array](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_189/RotateArray.java) |    ✅     |
+| 283  | 简单 | [移动零](https://leetcode-cn.com/problems/move-zeroes/)      | [move zeroes](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_283/MoveZeroes.java) |    ✅     |
+
 
 > 实战题目 - Linked List
 - [ ] [[21] 合并两个有序链表  ](https://leetcode-cn.com/problems/merge-two-sorted-lists/) 
@@ -166,17 +169,4 @@
 [【232】implement_queue_using_stacks  使用栈实现队列](https://github.com/gaoshengnan/LeetCode/tree/master/src/main/java/leetcode/stack/leetcode_232)  
 
 > 持续更新中。。。
-
-| 题号 | 难度 |                           题目链接                           |                           答案链接                           | 是否完成 |
-| :--: | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :------: |
-|  11  | 中等 | [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) |                                                              |    ❎     |
-|  26  | 简单 | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [remove Duplicates from sorted array](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_26/RemoveDuplicatesFromSortedArray.java) |    ✅     |
-|  66  | 简单 |      [加一](https://leetcode-cn.com/problems/plus-one/)      | [plus one](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_66/PlusOne.java) |    ✅     |
-|  70  | 简单 | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)  | [climbing stairs](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_70/ClimbingStairs.java) |    ✅     |
-|  88  | 简单 | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) | [merge sorted array](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_88/MergeSortedArray.java) |    ✅     |
-| 189  | 简单 |  [旋转数组](https://leetcode-cn.com/problems/rotate-array/)  | [rotate array](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_189/RotateArray.java) |    ✅     |
-| 283  | 简单 |   [移动零](https://leetcode-cn.com/problems/move-zeroes/)    | [move zeroes](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_283/MoveZeroes.java) |    ✅     |
-
-
-
 
