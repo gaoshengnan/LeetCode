@@ -168,8 +168,10 @@
 > 持续更新中。。。
 
 
-
-
+| 题号 | 难度 |                           题目链接                           | 答案链接                                                     | 是否完成 |
+| :--: | :--: | :----------------------------------------------------------: | ------------------------------------------------------------ | :------: |
+|  26  | 简单 | [[26] 删除排序数组中的重复项  ](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [remove Duplicates from sorted array](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_26/RemoveDuplicatesFromSortedArray.java) |    ✅     |
+|      |      |                                                              |                                                              |          |
 
 
 
