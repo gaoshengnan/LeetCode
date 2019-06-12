@@ -40,7 +40,7 @@
 | :--: | :--: | ------------------------------------------------------------ | :----------------------------------------------------------- | :------: |
 |  21  | 中等 | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) |                                                              |    ❎     |
 |  24  | 中等 | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [swap nodes in pairs](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_24/SwapNodesInPairs.java) |    ✅     |
-|  25  | 困难 | [K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | [reverse node in k group](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_25/ReverseNodesInkGroup.java) &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&emsp;|    ✅     |
+|  25  | 困难 | [K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | [reverse node in k group](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_25/ReverseNodesInkGroup.java) &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&emsp;|    ✅     |
 | 141  | 简单 | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) | [linkedList cycle](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_141/LinkedListCycle.java) |    ✅     |
 | 142  | 中等 | [环形链表II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) | [linked list cycle II](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_142/LinkedListCycleII.java) |    ✅     |
 | 206  | 简单 | [反转链表](https://leetcode.com/problems/reverse-linked-list/) | [reverse list](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_206/ReverseList.java) |    ✅     |
@@ -53,10 +53,10 @@
 | :--: | :--: | ------------------------------------------------------------ | :----------------------------------------------------------- | :------: |
 |  1   | 简单 | [两数之和](https://leetcode-cn.com/problems/two-sum/)        | [two sum](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_1/TwoSum.java) |    ✅     |
 |  15  | 中等 | [三数之和](https://leetcode-cn.com/problems/3sum/)           | [three sum](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_15/ThreeSum.java) |    ✅     |
-|  20  | 简单 | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/description/) | [valid parenthese](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_20/ValidParentheses.java) |    ✅     |
+|  20  | 简单 | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/description/) | [valid parenthese](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_20/ValidParentheses.java) &emsp;&emsp;&emsp;&emsp;|    ✅     |
 |  42  | 困难 | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) |                                                              |    ❎     |
 |  49  | 中等 | [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) |                                                              |    ❎     |
-|  84  | 困难 | [柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)&ensp;|                                                              |    ❎     |
+|  84  | 困难 | [柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)&ensp;&ensp;|                                                              |    ❎     |
 | 155  | 简单 | [最小栈](https://leetcode-cn.com/problems/min-stack/)        |                                                              |    ❎     |
 | 239  | 困难 | [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) |                                                              |    ❎     |
 | 242  | 简单 | [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/description/) |                                                              |    ❎     |
