@@ -26,7 +26,7 @@
 | 题号 | 难度 | 题目链接                                                     | 答案链接                                                     | 是否完成 |
 | :--: | :--: | :----------------------------------------------------------- | :----------------------------------------------------------- | :------: |
 |  11  | 中等 | [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) |                                                              |    ❎     |
-|  26  | 简单 | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [remove Duplicates from sorted array](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_26/RemoveDuplicatesFromSortedArray.java) |    ✅     |
+|  26  | 简单 | [删除排序数组中重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [remove Duplicates from sorted array](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_26/RemoveDuplicatesFromSortedArray.java) |    ✅     |
 |  66  | 简单 | [加一](https://leetcode-cn.com/problems/plus-one/)           | [plus one](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_66/PlusOne.java) |    ✅     |
 |  70  | 简单 | [爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)  | [climbing stairs](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_70/ClimbingStairs.java) |    ✅     |
 |  88  | 简单 | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) | [merge sorted array](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_88/MergeSortedArray.java) |    ✅     |
@@ -39,7 +39,7 @@
 | 题号 | 难度 | 题目链接                                                     | 答案链接                                                     | 是否完成 |
 | :--: | :--: | ------------------------------------------------------------ | :----------------------------------------------------------- | :------: |
 |  21  | 中等 | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) |                                                              |    ❎     |
-|  24  | 中等 | [两两交换链表中的节点  ](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [swap nodes in pairs](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_24/SwapNodesInPairs.java) |    ✅     |
+|  24  | 中等 | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [swap nodes in pairs](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_24/SwapNodesInPairs.java) |    ✅     |
 |  25  | 困难 | [K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | [reverse node in k group](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_25/ReverseNodesInkGroup.java) |    ✅     |
 | 141  | 简单 | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) | [linkedList cycle](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_141/LinkedListCycle.java) |    ✅     |
 | 142  | 中等 | [环形链表II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) | [linked list cycle II](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_142/LinkedListCycleII.java) |    ✅     |
@@ -56,7 +56,7 @@
 |  20  | 简单 | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/description/) | [valid parenthese](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_20/ValidParentheses.java) |    ✅     |
 |  42  | 困难 | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) |                                                              |    ❎     |
 |  49  | 中等 | [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) |                                                              |    ❎     |
-|  84  | 困难 | [柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) |                                                              |    ❎     |
+|  84  | 困难 | [柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)    |                                                              |    ❎     |
 | 155  | 简单 | [最小栈](https://leetcode-cn.com/problems/min-stack/)        |                                                              |    ❎     |
 | 239  | 困难 | [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) |                                                              |    ❎     |
 | 242  | 简单 | [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/description/) |                                                              |    ❎     |
