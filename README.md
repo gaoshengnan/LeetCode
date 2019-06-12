@@ -40,7 +40,7 @@
 | :--: | :--: | ------------------------------------------------------------ | :----------------------------------------------------------- | :------: |
 |  21  | 中等 | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) |                                                              |    ❎     |
 |  24  | 中等 | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [swap nodes in pairs](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_24/SwapNodesInPairs.java) |    ✅     |
-|  25  | 困难 | [K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | [reverse node in k group](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_25/ReverseNodesInkGroup.java) &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&emsp;|    ✅     |
+|  25  | 困难 | [K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | [reverse node in k group](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_25/ReverseNodesInkGroup.java) &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&emsp;|    ✅     |
 | 141  | 简单 | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) | [linkedList cycle](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_141/LinkedListCycle.java) |    ✅     |
 | 142  | 中等 | [环形链表II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) | [linked list cycle II](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_142/LinkedListCycleII.java) |    ✅     |
 | 206  | 简单 | [反转链表](https://leetcode.com/problems/reverse-linked-list/) | [reverse list](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_206/ReverseList.java) |    ✅     |
@@ -53,7 +53,7 @@
 | :--: | :--: | ------------------------------------------------------------ | :----------------------------------------------------------- | :------: |
 |  1   | 简单 | [两数之和](https://leetcode-cn.com/problems/two-sum/)        | [two sum](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_1/TwoSum.java) |    ✅     |
 |  15  | 中等 | [三数之和](https://leetcode-cn.com/problems/3sum/)           | [three sum](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_15/ThreeSum.java) |    ✅     |
-|  20  | 简单 | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/description/) | [valid parenthese](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_20/ValidParentheses.java) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|    ✅     |
+|  20  | 简单 | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/description/) | [valid parenthese](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_20/ValidParentheses.java) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;|    ✅     |
 |  42  | 困难 | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) |                                                              |    ❎     |
 |  49  | 中等 | [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) |                                                              |    ❎     |
 |  84  | 困难 | [柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)&ensp;&ensp;|                                                              |    ❎     |
@@ -65,21 +65,27 @@
 
 
 > 实战题目 - Binary Tree
-- [ ] [[22] 括号生成  ](https://leetcode-cn.com/problems/generate-parentheses/)   
-- [ ] [[70] 爬楼梯  ](https://leetcode-cn.com/problems/climbing-stairs/)   
-- [ ] [[94] 二叉树的中序遍历  ](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/description/)  
-- [ ] [[98] 验证二叉搜索树  ](https://leetcode-cn.com/problems/validate-binary-search-tree)  
-- [ ] [[104] 二叉树的最大深度  ](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree)  
-- [ ] [[105] 从前序与中序遍历序列构造二叉树  ](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)   
-- [ ] [[111] 二叉树的最小深度  ](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree)  
-- [ ] [[144] 二叉树的前序遍历 ](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/description/ )  
-- [ ] [[226] 翻转二叉树 ](https://leetcode-cn.com/problems/invert-binary-tree/description/)  
-- [ ] [[230] 二叉搜索树中第K小的元素  ](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/comments/)   
-- [ ] [[236] 二叉树的最近公共祖先  ](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)  
-- [ ] [[297] 二叉树的序列化与反序列化  ](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)  
-- [ ] [[429] N叉树的层序遍历  ](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/description/)  
-- [ ] [[589] N叉树的前序遍历  ](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/description)  
-- [ ] [[590] N叉树的后序遍历  ](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/description/ )  
+
+| 题号 | 难度 | 题目链接                                                     | 答案链接 | 是否完成 |
+| :--: | :--: | :----------------------------------------------------------- | -------- | :------: |
+|  22  | 中等 | [括号生成](https://leetcode-cn.com/problems/generate-parentheses/) |   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;       |    ❎     |
+|  94  | 中等 | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/description/) |          |    ❎     |
+|  98  | 中等 | [验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree) |          |    ❎     |
+| 104  | 简单 | [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree) |          |    ❎     |
+| 105  | 中等 | [从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) |          |    ❎     |
+| 111  | 简单 | [二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree) |          |    ❎     |
+| 144  | 中等 | [二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/description/ ) |          |    ❎     |
+| 226  | 简单 | [翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/description/) |          |    ❎     |
+| 230  | 中等 | [二叉搜索树中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/comments/) |          |    ❎     |
+| 236  | 中等 | [二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) |          |    ❎     |
+| 297  | 困难 | [二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/) |          |    ❎     |
+| 429  | 简单 | [N叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/description/) |          |    ❎     |
+| 589  | 简单 | [N叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/description) |          |    ❎     |
+| 590  | 简单 | [N叉树的后序遍历](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/description/ ) |          |    ❎     |
+
+------
+
+
 
 > 实战题目 - 分治
 - [ ] [[17] 电话号码的字母组合  ](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)   
