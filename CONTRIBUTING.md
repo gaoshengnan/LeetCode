@@ -1,12 +1,12 @@
-#### 题解提交说明
+### 题解提交说明
 
-##### Setp1 题解位置
+#### Setp1 题解位置
 
 在 highFrequencyLeetcode 下面新建对应题目路径：leetcode_题号，例如：leetcode_1；然后在 leetcode_1 文件路径下新建题解类，类名：题目对应名称，例如：TwoSum.java。
 
 如果此时 leetcode_1 下面已经有人写了题解，那么再新建一个 TwoSum2.java 来写自己的题解。
 
-##### Setp2 题解类里面格式注意
+#### Setp2 题解类里面格式注意
 
 提交题解按照如下格式：
 
@@ -119,7 +119,7 @@ public class TwoSum {
 }
 ```
 
-##### Setp2 注意事项
+#### Setp2 注意事项
 
 1. 所有提交的题解要求在 leetcode 上提交超过 80% 以上
 
