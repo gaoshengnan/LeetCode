@@ -119,7 +119,7 @@ public class TwoSum {
 }
 ```
 
-#### Setp2 注意事项
+#### Setp3 注意事项
 
 1. 所有提交的题解要求在 leetcode 上提交超过 80% 以上
 
