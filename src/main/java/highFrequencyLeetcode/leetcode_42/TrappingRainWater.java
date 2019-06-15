@@ -86,8 +86,8 @@ public class TrappingRainWater {
         return result;
     }
     /**
-     * 解法4 栈的应用
-     * 使用栈标记低谷和两界，
+     * 解法3 栈的应用
+     * 使用栈标记低谷和两界
      *
      * @param columns
      * @return
@@ -112,44 +112,16 @@ public class TrappingRainWater {
     }
 
     /**
-     * 解法3 DP求解 单次遍历<p>
-     * 看题解，提取主干思路：<p>
-     *   双指针替换两次遍历<p>
-     * 自己学习 思考 实践时的难点(难点是如何突破的见wiki)：<p>
-     *   虽然用dp存储了一些计算结果，但还是和暴力一样遍历了两次，如何减少循环次数？<p>
-     *
-     * @param height
-     * @return 
-     */
-    public int trap4(int[] height) {
-        int result = 0, left = 0, right = height.length - 1;
-        int maxl = 0, maxr = 0;
-        while (left < right) {
-            if (height[left] < height[right]) {
-                if (height[left] >= maxl) {
-                    maxl = height[left];
-                } else {
-                    result += (maxl - height[left]);
-                }
-                ++left;
-            } else {
-                if (height[right] >= maxr) {
-                    maxr = height[right];
-                } else {
-                    result += (maxr - height[right]);
-                }
-                --right;
-            }
-        }
-        return result;
-    }
-
-     /**
-     * 解法4 栈的应用
-     * 使用栈标记低谷和两界，
-     *
-     * @param height
-     * @return
+     * 解法4 双指针
+     * 
+     * 两个指针分别从左开始、从右开始向中间走，每次移动较小节点，并更新左边最大和右边最大，再累加可接雨水
+     * 
+     * 时间复杂度：O(n)
+     * 空间复杂度：O(1)
+     * 
+     * @param height: 宽度为 1 的柱子高度
+     * @return 能接多少雨水
+     * @author Seina
      */
     public int trap5(int[] height) {
         int water = 0;
@@ -159,17 +131,19 @@ public class TrappingRainWater {
         while (l < r) {
             if (height[l] <= height[r]) {
                 l++;
+                //更新当前元素左边最大
                 maxL = Math.max(maxL, height[l]);
+                //当 l < r 时，l 向右移动，如果移动之后的元素很大，比 maxR 还大，也不用担心，因为此时 maxL = height[l]，相减等于零，不会接任何水
+                //当然如果没有比 maxR 大，就相当于取了 maxL 和 maxR 中较小的一个，减去 height[l]，得到当前元素上可以接多少水
                 water += maxL - height[l];
             }
             else {
                 r--;
+                //更新当前元素右边最大
                 maxR = Math.max(maxR, height[r]);
                 water += maxR - height[r];
             }
         }
         return water;
     }
- 
-
 }

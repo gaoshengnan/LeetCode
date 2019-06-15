@@ -51,7 +51,7 @@
 |  1   | 简单 | [两数之和](https://leetcode-cn.com/problems/two-sum/)        | [two sum](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_1/TwoSum.java) |    ✅     |
 |  15  | 中等 | [三数之和](https://leetcode-cn.com/problems/3sum/)           | [three sum](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_15/ThreeSum.java) |    ✅     |
 |  20  | 简单 | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/description/) | [valid parenthese](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_20/ValidParentheses.java) |    ✅     |
-|  42  | 困难 | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) |                                                              |    ❎     |
+|  42  | 困难 | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) | [trapping rain water](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_42/TrappingRainWater.java)                                                             |    ✅     |
 |  49  | 中等 | [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) |                                                              |    ❎     |
 |  84  | 困难 | [柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)&ensp;&ensp;|                                                              |    ❎     |
 | 155  | 简单 | [最小栈](https://leetcode-cn.com/problems/min-stack/)        |                                                              |    ❎     |
