@@ -56,7 +56,7 @@
 |  84  | 困难 | [柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)&ensp;&ensp;|                                                              |    ❎     |
 | 155  | 简单 | [最小栈](https://leetcode-cn.com/problems/min-stack/)        |      [min stack](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_155/MinStack.java)                                                        |    ✅     |
 | 239  | 困难 | [滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) |                                                              |    ❎     |
-| 242  | 简单 | [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/description/) |                                                              |    ❎     |
+| 242  | 简单 | [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/description/) |    [valid anagram](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_242/ValidAnagram.java)                                                          |    ✅     |
 | 641  | 中等 | [设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque/) |                                                              |    ❎     |
 
 > 实战题目 - Binary Tree
