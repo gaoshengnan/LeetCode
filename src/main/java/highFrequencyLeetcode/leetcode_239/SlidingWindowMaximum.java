@@ -39,6 +39,9 @@ public class SlidingWindowMaximum {
     /**
      * 
      * 循环内，先给当前窗口赋值，然后开始求下一个窗口最大值
+     *
+     * 时间复杂度：最坏 O(n²) 最好 O(n)
+     * 空间复杂度：O(1)
      * 
      * @param nums
      * @param k 窗口大小
