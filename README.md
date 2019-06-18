@@ -63,7 +63,7 @@
 
 | &emsp;题号&emsp; | &emsp;难度&emsp; | 题目链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 答案链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 是否完成 |
 | :--: | :--: | :----------------------------------------------------------- | :------: | :------: |
-|  22  | 中等 | [括号生成](https://leetcode-cn.com/problems/generate-parentheses/) |          |    ❎     |
+|  22  | 中等 | [括号生成](https://leetcode-cn.com/problems/generate-parentheses/) |    [binary tree inorder traversal](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_94/BinaryTreeInorderTraversal.java)      |    ✅     |
 |  94  | 中等 | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/description/) |          |    ❎     |
 |  98  | 中等 | [验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree) |          |    ❎     |
 | 104  | 简单 | [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree) |          |    ❎     |
