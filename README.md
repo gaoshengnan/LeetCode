@@ -66,7 +66,7 @@
 |  22  | 中等 | [括号生成](https://leetcode-cn.com/problems/generate-parentheses/) |          |    ❎    |
 |  94  | 中等 | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/description/) |[binary tree inorder traversal](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_94/BinaryTreeInorderTraversal.java)       |    ✅     |
 |  98  | 中等 | [验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree) |          |    ❎     |
-| 104  | 简单 | [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree) |          |    ❎     |
+| 104  | 简单 | [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree) |    [maximum depth of binary tree](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_104/MaximumDepthOfBinaryTree.java)     |    ✅     |
 | 105  | 中等 | [从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) |          |    ❎     |
 | 111  | 简单 | [二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree) |          |    ❎     |
 | 144  | 中等 | [二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/description/ ) | [binary tree preorder traversal](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_144/BinaryTreePreorderTraversal.java)         |    ✅    |
