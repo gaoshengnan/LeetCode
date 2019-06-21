@@ -37,10 +37,25 @@ import highFrequencyLeetcode.leetcode_226.TreeNode;
  */
 public class InvertBinaryTree {
 
+    /**
+     * 解法1 递归
+     *
+     * 递归重复做的事情就是：将返回的右节点赋值给 left，将返回的左节点赋值给 right 指针
+     *
+     * 时间复杂度: O(n)
+     * 空间复杂度: 最坏 O(n)，平均 O(logn)
+     *
+     * @param root: 根节点
+     * @return 翻转的二叉树
+     */
     public TreeNode invertTree(TreeNode root) {
         if (root == null || root.right == null && root.left == null) return root;
+
+        //临时变量记录左右节点地址
         TreeNode left = root.left;
         TreeNode right = root.right;
+
+        //递归交换左右节点
         root.right = invertTree(left);
         root.left = invertTree(right);
         return root;
