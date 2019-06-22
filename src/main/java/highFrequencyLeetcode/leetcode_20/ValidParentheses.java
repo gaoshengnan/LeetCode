@@ -39,6 +39,12 @@ package highFrequencyLeetcode.leetcode_20;
  */
 public class ValidParentheses {
 
+    /**
+     * 解法1
+     *
+     * @param s：给定一个字符串
+     * @return 返回是否有效 true or false
+     */
     public static boolean isValid(String s) {
         if(s == null || s.length() == 1) return false;
         if(s.length() == 0) return true;
