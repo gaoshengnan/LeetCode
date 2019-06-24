@@ -74,7 +74,7 @@
 | 230  | 中等 | [二叉搜索树中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/comments/) |          |    ❎     |
 | 236  | 中等 | [二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/) |          |    ❎     |
 | 297  | 困难 | [二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/) |          |    ❎     |
-| 429  | 简单 | [N叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/description/) |          |    ❎     |
+| 429  | 简单 | [N叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/description/) | [n ary tree level order traversal](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_429/NAryTreeLevelOrderTraversal.java)         |    ✅     |
 | 589  | 简单 | [N叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/description) |          |    ❎     |
 | 590  | 简单 | [N叉树的后序遍历](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/description/ ) |          |    ❎     |
 
