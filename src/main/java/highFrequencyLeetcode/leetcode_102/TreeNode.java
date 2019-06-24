@@ -1,14 +1,14 @@
-package highFrequencyLeetcode.leetcode_104;
+package highFrequencyLeetcode.leetcode_102;
 
 /**
  * @author Seina
- * @version 2019-06-17 18:01:03
+ * @version 2019-06-17 19:01:03
  */
 public class TreeNode {
       int val;
       TreeNode left;
       TreeNode right;
       TreeNode(int x) {
-          this.val = x;
+          val = x;
       }
 }
