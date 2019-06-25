@@ -63,7 +63,7 @@ public class ValidateBinarySearchTree {
         if (root == null) return true;
         if (root.val >= max || root.val <= min) return false;
         /**
-         * 双与（&&）：只要有一个false 就返回 false，另外前者为 false 时，不去计算后者
+         * 双与 && ：只要有一个false 就返回 false，另外前者为 false 时，不去计算后者
          *
          * 比较左子节点时，根节点最大
          * 比较右子节点时，根节点做小
