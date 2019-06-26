@@ -83,7 +83,7 @@
 > 实战题目 - 分治
 
 | &emsp;题号&emsp; | &emsp;难度&emsp; | 题目链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 答案链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | 是否完成 |
-| :--: | :--: | :----------------------------------------------------------- | :------: | :------: |
+| :--: | :--: | ------------------------------------------------------------ | :----------------------------------------------------------- | :------: |
 |  17  | 中等  | [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) |          |    ❎     |
 |  50  | 中等  | [Pow(x, n)](https://leetcode-cn.com/problems/powx-n/description/) |  [pow x - n](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_50/PowXN.java)        |    ✅     |
 |  78  | 中等  | [子集](https://leetcode-cn.com/problems/subsets/solution/hui-su-jie-fa-by-jawhiow/) |          |    ❎     |
@@ -105,7 +105,7 @@
 > 实战题目 - 剪枝
 
 | &emsp;题号&emsp; | &emsp;难度&emsp; | 题目链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 答案链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | 是否完成 |
-| :--: | :--: | :----------------------------------------------------------- | :------: | :------: |
+| :--: | :--: | ------------------------------------------------------------ | :----------------------------------------------------------- | :------: |
 |  36  | 中等 | [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/description/) |          |    ❎     |
 |  37  | 困难 | [解数独](https://leetcode-cn.com/problems/sudoku-solver/#/description) |          |    ❎     |
 |  51  | 困难 | [N皇后](https://leetcode-cn.com/problems/n-queens/)          |          |    ❎     |
@@ -114,7 +114,7 @@
 > 实战题目 - 二分查找
 
 | &emsp;题号&emsp; | &emsp;难度&emsp; | 题目链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 答案链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | 是否完成 |
-| :--: | :--: | :----------------------------------------------------------- | :------: | :------: |
+| :--: | :--: | ------------------------------------------------------------ | :----------------------------------------------------------- | :------: |
 |  33  | 中等 | [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) |          |    ❎     |
 |  69  | 简单 | [x 的平方根](https://leetcode-cn.com/problems/sqrtx/ )       |          |    ❎     |
 | 367  | 简单 | [有效的完全平方数](https://leetcode-cn.com/problems/valid-perfect-square/) |          |    ❎     |
@@ -122,7 +122,7 @@
 > 实战题目 - 贪心
 
 | &emsp;题号&emsp; | &emsp;难度&emsp; | 题目链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 答案链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 是否完成 |
-| :--: | :--: | :----------------------------------------------------------- | :------: | :------: |
+| :--: | :--: | ------------------------------------------------------------ | :----------------------------------------------------------- | :------: |
 | 122  | 简单 | [买卖股票的最佳时机 II  ](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/description/) |          |    ❎     |
 | 455  | 简单 | [分发饼干](https://leetcode-cn.com/problems/assign-cookies/description/) |          |    ❎     |
 | 860  | 简单 | [柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/description/) |          |    ❎     |
@@ -132,7 +132,7 @@
 > 实战题目 - 动态规划
 
 | &emsp;题号&emsp; | &emsp;难度&emsp; | 题目链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 答案链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | 是否完成 |
-| :--: | :--: | :----------------------------------------------------------- | :------: | :------: |
+| :--: | :--: | ------------------------------------------------------------ | :----------------------------------------------------------- | :------: |
 |  32  | 中等 | [最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/) |          |    ❎     |
 |  45  | 困难 | [跳跃游戏 II ](https://leetcode-cn.com/problems/jump-game-ii/) |          |    ❎     |
 |  55  | 困难 | [跳跃游戏 ](https://leetcode-cn.com/problems/jump-game/)     |          |    ❎     |
@@ -169,7 +169,7 @@
 > 实战题目 - trie 树
 
 | &emsp;题号&emsp; | &emsp;难度&emsp; | 题目链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | 答案链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | 是否完成 |
-| :--: | :--: | :----------------------------------------------------------- | :------: | :------: |
+| :--: | :--: | ------------------------------------------------------------ | :----------------------------------------------------------- | :------: |
 | 208  | 中等 | [实现 Trie (前缀树) ](https://leetcode-cn.com/problems/implement-trie-prefix-tree/#/description) |          |    ❎     |
 | 212  | 困难 | [单词搜索 II ](https://leetcode-cn.com/problems/word-search-ii/) |          |    ❎     |
 
@@ -177,7 +177,7 @@
 > 实战题目 - 位运算
 
 | &emsp;题号&emsp; | &emsp;难度&emsp; | 题目链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 答案链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | 是否完成 |
-| :--: | :--: | :----------------------------------------------------------- | :------: | :------: |
+| :--: | :--: | ------------------------------------------------------------ | :----------------------------------------------------------- | :------: |
 |  52  |  困难 | [N皇后 II ](https://leetcode-cn.com/problems/n-queens-ii/description/) |          |    ❎     |
 | 190  |  简单 | [颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/) |          |    ❎     |
 | 191  |  简单 | [位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/) |          |    ❎     |
@@ -187,13 +187,13 @@
 > 实战题目 - LRU Catch
 
 | &emsp;题号&emsp; | &emsp;难度&emsp; | 题目链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 答案链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | 是否完成 |
-| :--: | :--: | :----------------------------------------------------------- | :------: | :------: |
+| :--: | :--: | ------------------------------------------------------------ | :----------------------------------------------------------- | :------: |
 | 146  | 困难  | [LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/#/) |          |    ❎     |
 
 > 实战题目 - 并查集
 
 | &emsp;题号&emsp; | &emsp;难度&emsp; | 题目链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 答案链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | 是否完成 |
-| :--: | :--: | :----------------------------------------------------------- | :------: | :------: |
+| :--: | :--: | ------------------------------------------------------------ | :----------------------------------------------------------- | :------: |
 | 130  |  中等 | [被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/#/description) |          |    ❎     |
 | 200  |  中等 | [岛屿数量](https://leetcode-cn.com/problems/number-of-islands/) |          |    ❎     |
 | 547  |  中等 | [朋友圈](https://leetcode-cn.com/problems/friend-circles/#/description) |          |    ❎     |
