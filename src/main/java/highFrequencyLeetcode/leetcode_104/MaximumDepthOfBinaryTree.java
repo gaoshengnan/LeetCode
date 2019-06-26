@@ -39,9 +39,8 @@ public class MaximumDepthOfBinaryTree {
      */
     public int maxDepth(TreeNode root) {
         //递归终止条件：叶子节点无左右子节点
-        if (root == null) {
+        if (root == null)
             return  0;
-        }
         else {
             //左子树深度
             int leftHeight = maxDepth(root.left);
