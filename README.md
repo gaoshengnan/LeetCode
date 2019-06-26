@@ -85,7 +85,7 @@
 | &emsp;题号&emsp; | &emsp;难度&emsp; | 题目链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 答案链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | 是否完成 |
 | :--: | :--: | :----------------------------------------------------------- | :------: | :------: |
 |  17  | 中等  | [电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) |          |    ❎     |
-|  50  | 中等  | [Pow(x, n)](https://leetcode-cn.com/problems/powx-n/description/) |          |    ❎     |
+|  50  | 中等  | [Pow(x, n)](https://leetcode-cn.com/problems/powx-n/description/) |  [pow x - n](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_50/PowXN.java)        |    ✅     |
 |  78  | 中等  | [子集](https://leetcode-cn.com/problems/subsets/solution/hui-su-jie-fa-by-jawhiow/) |          |    ❎     |
 | 169  | 简单  | [求众数](https://leetcode-cn.com/problems/majority-element/description/) |          |    ❎     |
 
