@@ -1,7 +1,7 @@
 
 
 
-<div align="center"><img src="/src/main/resources/img/log/log.png" height="180" width="200" ></div>
+<div align="center"><img src="/src/main/resources/img/log/log.png" height="180" width="210" ></div>
 
 
 ### LeetCode
