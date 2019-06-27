@@ -2,13 +2,12 @@
 
 
 <div align="center"><img src="/src/main/resources/img/log/log.png" height="180" width="210" ></div>
-<div align="center"><img src="/src/main/resources/img/log/introduction.png" height="90" width="610" ></div>
 
 掌握数据结构和算法直接的好处就是能写出性能更优的代码。算法是一种解决问题的思路和方法，从长期来看，大脑思考能力是个人最重要的核心竞争力，而算法是为数不多的能够训练大脑思考能力的途径之一。
 
 关于要不要学数据结构和算法以及算法有没有用这种问题不想再多做解释，只能说志同道合者共行，如果你也感兴趣，可以和我一起学习数据结构和算法题。
 
-学习路线加强巩固数据结构基础知识，通过 leetcode 算法题加深对数据结构的理解。
+&emsp;&emsp;&emsp;&emsp; 🍭学习路线加强巩固数据结构基础知识，通过 leetcode 算法题加深对数据结构的理解。
 
 ### 理论基础
 
