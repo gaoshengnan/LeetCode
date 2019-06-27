@@ -2,6 +2,8 @@
 
 
 <div align="center"><img src="/src/main/resources/img/log/log.png" height="180" width="210" ></div>
+<div align="center"><img src="/src/main/resources/img/log/introduction.png" height="100" width="610" ></div>
+
 
 
 ### LeetCode
