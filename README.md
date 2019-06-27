@@ -25,7 +25,7 @@
 ## 面试常考算法题
 
 以下列出面试高频出现，以及一些非常经典重要的算法题：
-总计：100 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  已完成：34 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  未完成：66
+总计：100 &emsp; 已完成：34 &emsp; 未完成：66
 
 > 实战题目 - Array
 
