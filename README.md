@@ -13,19 +13,19 @@
 
 ### 二、理论基础知识
 
-| &emsp;[**数组**](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/theoreticalBasis/%E5%B8%B8%E8%A7%81%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/1.%E6%95%B0%E7%BB%84.md)&emsp; | &emsp;[**链表**](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/theoreticalBasis/%E5%B8%B8%E8%A7%81%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/2.%E9%93%BE%E8%A1%A8.md)&emsp;  |  &emsp;[**栈**](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/theoreticalBasis/%E5%B8%B8%E8%A7%81%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/3.%E6%A0%88.md)&emsp;  | &emsp;[**跳表**](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/theoreticalBasis/%E5%B8%B8%E8%A7%81%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/4.%E8%B7%B3%E8%A1%A8.md)&emsp; | &emsp;[**散列表**](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/theoreticalBasis/%E5%B8%B8%E8%A7%81%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/5.%E6%95%A3%E5%88%97%E8%A1%A8.md)&emsp; | &emsp;二叉树&emsp; |
+| &emsp;&emsp;&emsp;[**数组**](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/theoreticalBasis/%E5%B8%B8%E8%A7%81%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/1.%E6%95%B0%E7%BB%84.md)&emsp;&emsp;&emsp; | &emsp;&emsp;&emsp;[**链表**](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/theoreticalBasis/%E5%B8%B8%E8%A7%81%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/2.%E9%93%BE%E8%A1%A8.md)&emsp;&emsp;&emsp;  |  &emsp;&emsp;&emsp;[**栈**](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/theoreticalBasis/%E5%B8%B8%E8%A7%81%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/3.%E6%A0%88.md)&emsp;&emsp;&emsp;  | &emsp;&emsp;&emsp;[**跳表**](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/theoreticalBasis/%E5%B8%B8%E8%A7%81%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/4.%E8%B7%B3%E8%A1%A8.md)&emsp;&emsp;&emsp; | &emsp;&emsp;&emsp;[**散列表**](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/theoreticalBasis/%E5%B8%B8%E8%A7%81%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/5.%E6%95%A3%E5%88%97%E8%A1%A8.md)&emsp;&emsp;&emsp; | &emsp;&emsp;&emsp;二叉树&emsp;&emsp;&emsp; |
 | :--: | :---: | :--: | :--: | :----: | :----: |
-| 🌟🌟🌟🌟 | 🌟🌟🌟🌟🌟 | 🌟🌟🌟  |  🌟🌟  |  🌟🌟🌟   | 🌟🌟🌟🌟🌟  |
+| 🌟🌟 | 🌟🌟🌟 | 🌟  |  🌟  |  🌟🌟   | 🌟🌟🌟   |
 
 
-| &emsp;贪心&emsp;  | &emsp;分治&emsp;  | &emsp;回溯&emsp;  | &emsp;动态规划&emsp; | &emsp;[**递归**](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/theoreticalBasis/%E9%80%92%E5%BD%92.md)&emsp;  | &emsp;复杂度分析&emsp; |
+| &emsp;&emsp;&emsp;贪心&emsp;&emsp;&emsp;  | &emsp;&emsp;&emsp;分治&emsp;&emsp;&emsp;  | &emsp;&emsp;&emsp;回溯&emsp;&emsp;&emsp;  | &emsp;&emsp;&emsp;动态规划&emsp;&emsp;&emsp; | &emsp;&emsp;&emsp;[**递归**](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/theoreticalBasis/%E9%80%92%E5%BD%92.md)&emsp;&emsp;&emsp;  | &emsp;&emsp;&emsp;复杂度分析&emsp;&emsp;&emsp; |
 | :---: | :---: | :---: | :------: | :---: | :--------: |
-| 💕💕💕💕💕 | 💕💕💕💕💕 | 💕💕💕💕💕 |  💕💕💕💕💕   | 💕💕💕💕💕 |   💕💕💕💕💕    |
+| 🌟🌟🌟  | 🌟🌟🌟  | 🌟🌟🌟  |  🌟🌟🌟    | 🌟🌟🌟  |   🌟🌟🌟     |
          
 
 ### 三、面试常考算法题系列
 
-> 总计：101 &emsp;&emsp;&emsp;  ✅ 已完成：34 &emsp;&emsp;&emsp;  ❎ 未完成：67
+> 总计：101 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  ✅ 已完成：34 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  ❎ 未完成：67
 
 以下列出面试高频出现，以及一些非常经典重要的算法题：
 
@@ -85,8 +85,6 @@
 | 429  | 简单 | [N叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/description/) | [n ary tree level order traversal](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_429/NAryTreeLevelOrderTraversal.java)         |    ✅     |
 | 589  | 简单 | [N叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/description) |          |    ❎     |
 | 590  | 简单 | [N叉树的后序遍历](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/description/ ) |          |    ❎     |
-
----------
 
 > 实战题目 - 分治
 
@@ -172,7 +170,6 @@
 | 647  | 中等 | [回文子串](https://leetcode-cn.com/problems/palindromic-substrings/) |          |    ❎     |
 | 714  | 中等 | [买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) |          |    ❎     |
 | 980  | 困难 | [不同路径 III ](https://leetcode-cn.com/problems/unique-paths-iii/) |          |    ❎     |
-
 
 > 实战题目 - trie 树
 
