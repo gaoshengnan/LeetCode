@@ -24,7 +24,7 @@
          
 ## 面试常考算法题
 
-以下列出面试高频出现，以及一些非常经典重要的算法题： 总计：100 &emsp; 已完成：36 &emsp; 未完成：64
+以下列出面试高频出现，以及一些非常经典重要的算法题： 总计：100 &emsp; 已完成：37 &emsp; 未完成：63
   
 > 实战题目 - Array
 
@@ -120,7 +120,7 @@
 | :--: | :--: | ------------------------------------------------------------ | :----------------------------------------------------------- | :------: |
 |  33  | 中等 | [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) |  [search in rotated sorted array](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_33/SearchInRotatedSortedArray.java)        |    ✅     |
 |  69  | 简单 | [x 的平方根](https://leetcode-cn.com/problems/sqrtx/ )       |   [sqrtx](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_69/Sqrtx.java)       |    ✅     |
-| 367  | 简单 | [有效的完全平方数](https://leetcode-cn.com/problems/valid-perfect-square/) |          |    ❎     |
+| 367  | 简单 | [有效的完全平方数](https://leetcode-cn.com/problems/valid-perfect-square/) | [valid perfect square](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_367/ValidPerfectSquare.java)         |    ✅     |
 
 > 实战题目 - 贪心
 
