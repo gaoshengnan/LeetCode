@@ -25,6 +25,7 @@ public class ContainerWithMostWater {
 
     /**
      * 暴力法
+     *
      * 时间复杂度：O(n²)
      * 空间复杂度：O(1)
      * 
@@ -42,6 +43,7 @@ public class ContainerWithMostWater {
 
     /**
      * 双指针法
+     *
      * 时间复杂度：O(n) 一次扫描
      * 空间复杂度：O(1)
      * 
@@ -53,16 +55,16 @@ public class ContainerWithMostWater {
      * @return 矩形最大面积
      */
     public int maxArea2(int[] height) {
-        int maxarea = 0, l = 0, r = height.length - 1;
+        int maxArea = 0, l = 0, r = height.length - 1;
         while (l < r) {
-            maxarea = Math.max(maxarea, Math.min(height[l], height[r]) * (r - l));
+            maxArea = Math.max(maxArea, Math.min(height[l], height[r]) * (r - l));
             if (height[l] < height[r]) 
                 l++;
             else
                 r--;
             
         }
-        return maxarea;
+        return maxArea;
     }
 
 
