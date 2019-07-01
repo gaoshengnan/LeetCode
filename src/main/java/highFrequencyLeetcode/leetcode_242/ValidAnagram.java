@@ -1,12 +1,10 @@
 package highFrequencyLeetcode.leetcode_242;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
-
-import javax.swing.text.DefaultStyledDocument.ElementSpec;
 
 /**
  * <p>
+ *
  * 给定两个字符串 s 和 t ，编写一个函数来判断 t 是否是 s 的字母异位词。
  *
  *  示例 1:
@@ -27,8 +25,9 @@ import javax.swing.text.DefaultStyledDocument.ElementSpec;
  *  如果输入字符串包含 unicode 字符怎么办？你能否调整你的解法来应对这种情况？
  *
  * </p>
+ *
  * @author Seina
- * @version 2019-06-16 15:29:22
+ * @version 2019-06-16 21:29:22
  */
 public class ValidAnagram {
 
@@ -71,6 +70,4 @@ public class ValidAnagram {
         }
         return false;
     }
-
-
 }

@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-
 /**
  * <p>
  *
@@ -30,7 +29,6 @@ import java.util.Stack;
  */
 public class BinaryTreeInorderTraversal {
 
-
     /**
      * 
      * 解法1 递归
@@ -50,7 +48,7 @@ public class BinaryTreeInorderTraversal {
         return res;
     }
 
-    public void traverse(TreeNode root, List<Integer> res) {
+    private void traverse(TreeNode root, List<Integer> res) {
         //root 为空，就不用继续递归下去了
         if (root != null) {
             if (root.left != null) {
@@ -93,6 +91,4 @@ public class BinaryTreeInorderTraversal {
         }
         return res;
     }
-  
-
 }

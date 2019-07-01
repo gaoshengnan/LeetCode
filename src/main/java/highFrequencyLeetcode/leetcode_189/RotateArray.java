@@ -27,15 +27,17 @@ package highFrequencyLeetcode.leetcode_189;
  *
  * 尽可能想出更多的解决方案，至少有三种不同的方法可以解决这个问题。
  * 要求使用空间复杂度为 O(1) 的原地算法。
+ *
  * </p>
  *
  * @author Seina
- * @version 2019-06-09 13:49:37
+ * @version 2019-06-09 23:49:37
  */
 public class RotateArray {
 
     /**
      * 解法1
+     *
      * 时间复杂度：O(kn)
      * 空间复杂度：O(1)
      */
@@ -53,6 +55,7 @@ public class RotateArray {
 
     /**
      * 解法2
+     *
      * 时间复杂度：O(n)
      * 空间复杂度：O(1)
      */
@@ -72,7 +75,6 @@ public class RotateArray {
             nums[end--] = temp;
         }
     }
-
 }
 
 

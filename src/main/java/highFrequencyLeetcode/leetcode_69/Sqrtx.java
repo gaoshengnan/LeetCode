@@ -23,6 +23,7 @@ package highFrequencyLeetcode.leetcode_69;
  *      由于返回类型是整数，小数部分将被舍去。
  *
  * </p>
+ *
  * @author Seina
  * @version 2019-06-27 22:42:59
  */

@@ -33,7 +33,7 @@ import highFrequencyLeetcode.leetcode_226.TreeNode;
  * </p>
  *
  * @author Seina
- * @version 2019-06-19 18:05:30
+ * @version 2019-06-19 19:05:30
  */
 public class InvertBinaryTree {
 
@@ -60,8 +60,6 @@ public class InvertBinaryTree {
         root.left = invertTree(right);
         return root;
     }
-
-
 }
 
 

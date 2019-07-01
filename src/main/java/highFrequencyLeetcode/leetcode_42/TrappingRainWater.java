@@ -16,7 +16,7 @@ import java.util.Stack;
  * <p>
  *
  * @author li tong，Seina
- * @version 2019/6/3 10:18
+ * @version 2019/6/3 20:18
  */
 public class TrappingRainWater {
 
@@ -85,6 +85,7 @@ public class TrappingRainWater {
         }
         return result;
     }
+
     /**
      * 解法3 栈的应用
      * 使用栈标记低谷和两界

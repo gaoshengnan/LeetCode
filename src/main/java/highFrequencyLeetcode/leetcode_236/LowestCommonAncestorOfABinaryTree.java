@@ -35,6 +35,7 @@ package highFrequencyLeetcode.leetcode_236;
  *  p、q 为不同节点且均存在于给定的二叉树中。
  *
  * </p>
+ *
  * @author Seina
  * @version 2019-06-25 23:37:57
  */
@@ -63,5 +64,4 @@ public class LowestCommonAncestorOfABinaryTree {
          */
         return left == null ? right : right == null ? left : root;
     }
-
 }

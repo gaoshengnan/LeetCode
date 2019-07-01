@@ -27,6 +27,7 @@ package highFrequencyLeetcode.leetcode_111;
  * @version 2019-06-19 20:25:50
  */
 public class MinimumDepthOfBinaryTree {
+
     /**
      * 解法1 递归
      * 
@@ -49,5 +50,4 @@ public class MinimumDepthOfBinaryTree {
             //如果左右子节点都为空，那么返回节点所在的一层
             return Math.max(minDepth(root.left), minDepth(root.right)) + 1;
     }
-
 }

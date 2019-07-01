@@ -18,11 +18,11 @@ package highFrequencyLeetcode.leetcode_367;
  *  输出：False
  *
  * </p>
+ *
  * @author Seina
- * @version 2019-06-28 17:59:18
+ * @version 2019-06-28 19:59:18
  */
 public class ValidPerfectSquare {
-
 
     /**
      * 解法1 二分法

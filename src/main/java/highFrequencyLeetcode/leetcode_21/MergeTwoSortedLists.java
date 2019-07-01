@@ -1,14 +1,10 @@
 package highFrequencyLeetcode.leetcode_21;
-
-
-
 /**
- *
  * <p>
  *
  * 将两个有序链表合并为一个新的有序链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。
  *
- *  示例：
+ * 示例：
  *
  * 输入：1->2->4, 1->3->4
  * 输出：1->1->2->3->4->4
@@ -22,13 +18,13 @@ public class MergeTwoSortedLists {
 
     /**
      * 递归
+     *
      * 时间复杂度: O(m + n)
      * 空间复杂度: O(1)
-     * 
-     * 
-     * @param l1 
-     * @param l2
-     * @return
+     *
+     * @param l1: 有序链表 l1
+     * @param l2: 有序链表 l2
+     * @return 合并之后新的有序链表
      */
     public ListNode mergeTwoLists1(ListNode l1, ListNode l2) {
         //递归终止时，返回的是两个链表中最大的节点
@@ -52,16 +48,15 @@ public class MergeTwoSortedLists {
         }
     }
 
-
     /**
      * 非递归
+     *
      * 时间复杂度: O(n)
      * 空间复杂度: O(1)
-     * 
-     * 
-     * @param l1 
-     * @param l2
-     * @return
+     *
+     * @param l1: 有序链表 l1
+     * @param l2: 有序链表 l2
+     * @return 合并之后新的有序链表
      */
     public ListNode mergeTwoLists2(ListNode l1, ListNode l2) {
         //定义一个节点数据域是 -1 的节点
@@ -86,6 +81,5 @@ public class MergeTwoSortedLists {
         }
         p.next = l1 == null ? l2 : l1;
         return prehead.next;
-
     }
 }

@@ -1,7 +1,6 @@
 package highFrequencyLeetcode.leetcode_70;
 
 /**
- *
  * <p>
  *
  *  假设你正在爬楼梯。需要 n 阶你才能到达楼顶。
@@ -74,6 +73,7 @@ public class ClimbingStairs {
 
     /**
      * 解法2 记忆化递归
+     *
      * 时间复杂度：O(n)
      * 空间复杂度：O(n)
      * 
@@ -99,7 +99,6 @@ public class ClimbingStairs {
         memo[i] = climb2(i + 1, n, memo) + climb2(i + 2, n, memo);
         return memo[i];
     }
-
 
     /**
      * 解法3 动态规划
@@ -127,7 +126,7 @@ public class ClimbingStairs {
      * 空间复杂度：O(1)
      */
     public int climbStairs4(int n) {
-        if ( n == 1) {
+        if (n == 1) {
             return 1;
         }
         int first = 1;
@@ -139,6 +138,4 @@ public class ClimbingStairs {
         }
         return second;
     }
-
-    
 }

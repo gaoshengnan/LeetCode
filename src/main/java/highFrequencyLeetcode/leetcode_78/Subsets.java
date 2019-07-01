@@ -35,8 +35,8 @@ public class Subsets {
     /**
      * 解法1 递归
      *
-     * @param nums
-     * @return
+     * @param nums: 不含重复元素的整数数组
+     * @return 所有子集
      */
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> ans = new ArrayList<List<Integer>>();
@@ -98,14 +98,11 @@ public class Subsets {
         }
     }
 
-    public static void main(String[] args) {
-        int[] nums = new int[]{1,2,3};
-        System.out.println(subsets2(nums));
-    }
-
     /**
      * 解法2 位运算解决
      *
+     * @param nums: 不含重复元素的整数数组
+     * @return 所有子集
      */
     public static List<List<Integer>> subsets2(int[] nums) {
         List<List<Integer>> ans = new ArrayList<List<Integer>>();
@@ -117,6 +114,4 @@ public class Subsets {
         }
         return ans;
     }
-
-
 }

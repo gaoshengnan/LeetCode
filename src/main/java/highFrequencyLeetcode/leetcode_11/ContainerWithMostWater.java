@@ -11,13 +11,13 @@ package highFrequencyLeetcode.leetcode_11;
  *
  * 具体图片请查看 leetcode
  *
- *
  * 示例:
  *
  *  输入: [1,8,6,2,5,4,8,3,7]
  *  输出: 49
  *
  * </p>
+ *
  * @author Seina
  * @version 2019-06-13 22:05:17
  */
@@ -44,12 +44,12 @@ public class ContainerWithMostWater {
     /**
      * 双指针法
      *
-     * 时间复杂度：O(n) 一次扫描
-     * 空间复杂度：O(1)
-     * 
      * 矩形面积主要取决于两线段的距离（长）和两线段中最短的那条长度（宽）来决定的
      * 因为矩形要最大化，两条线段的距离越远越好，两条线段的最短长度也要越长越好
      * 所以不停缩短距离，不停越过较短的线段来移动指针，并同时更新 maxarea
+     *
+     * 时间复杂度：O(n) 一次扫描
+     * 空间复杂度：O(1)
      *
      * @param height：线段高度
      * @return 矩形最大面积
@@ -66,7 +66,4 @@ public class ContainerWithMostWater {
         }
         return maxArea;
     }
-
-
-
 }

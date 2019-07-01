@@ -3,7 +3,6 @@ package highFrequencyLeetcode.leetcode_49;
 import java.util.*;
 
 /**
- *
  * <p>
  *
  *  给定一个字符串数组，将字母异位词组合在一起。字母异位词指字母相同，但排列不同的字符串。
@@ -20,11 +19,11 @@ import java.util.*;
  *
  *  说明：
  *
- *
  *  所有输入均为小写字母。
  *  不考虑答案输出的顺序。
  *
  * </p>
+ *
  * @author Seina
  * @version 2019-06-16 12:57:00
  */
@@ -73,7 +72,7 @@ public class GroupAnagrams {
     }
 
     /**
-     * 解法1 排序数组分类(力扣官方题解)
+     * 解法2 排序数组分类(力扣官方题解)
      *
      * 将排好序的数组放在 map 的 key 里，然后将字母异位词的集合放在 value 里
      *

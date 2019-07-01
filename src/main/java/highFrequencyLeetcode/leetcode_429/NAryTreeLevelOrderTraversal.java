@@ -1,11 +1,9 @@
 package highFrequencyLeetcode.leetcode_429;
 
-
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- *
  * <p>
  *
  *  给定一个 N 叉树，返回其节点值的层序遍历。 (即从左到右，逐层遍历)。
@@ -34,8 +32,9 @@ import java.util.List;
  *  树的节点总数不会超过 5000。
  *
  * </p>
+ *
  * @author Seina
- * @version 2019-06-24 11:03:15
+ * @version 2019-06-24 21:03:15
  */
 public class NAryTreeLevelOrderTraversal {
 
@@ -71,6 +70,4 @@ public class NAryTreeLevelOrderTraversal {
             traverse(n, level + 1, res);
         return res;
     }
-
-
 }

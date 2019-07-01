@@ -23,6 +23,11 @@ package highFrequencyLeetcode.leetcode_283;
  */
 public class MoveZeroes {
 
+    /**
+     * 解法1
+     *
+     * @param nums: 数组
+     */
     public void moveZeroes (int[] nums) {
         int i = 0; 
         for (int j = 0; j < nums.length; j++) {

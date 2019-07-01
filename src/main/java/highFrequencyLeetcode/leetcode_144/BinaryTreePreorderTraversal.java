@@ -25,7 +25,7 @@ import java.util.List;
  * </p>
  *
  * @author Seina
- * @version 2019-06-19 11:18:08
+ * @version 2019-06-19 21:18:08
  */
 public class BinaryTreePreorderTraversal {
 
@@ -44,7 +44,7 @@ public class BinaryTreePreorderTraversal {
         traverse(root, res);
         return res;
     }
-    public void traverse(TreeNode root, List<Integer> res) {
+    private void traverse(TreeNode root, List<Integer> res) {
         if (root != null) {
             res.add(root.val);
             if (root.left != null) {

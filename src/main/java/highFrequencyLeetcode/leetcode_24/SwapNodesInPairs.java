@@ -13,13 +13,13 @@ import leetcode.linkedlist.ListNode;
  * 给定 1->2->3->4, 你应该返回 2->1->4->3.
  * 
  * </p>
+ *
  * @author Seina
  * @version 2019-01-16 22:35:25
  */
 public class SwapNodesInPairs {
 
     public ListNode swapPairs(ListNode head) {
-
         if (head == null || head.next == null) {
             return head;
         }
@@ -41,5 +41,4 @@ public class SwapNodesInPairs {
         }
         return root.next;
     }
-
 }

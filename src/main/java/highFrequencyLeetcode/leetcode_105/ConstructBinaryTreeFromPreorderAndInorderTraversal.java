@@ -25,6 +25,7 @@ import java.util.Map;
  *    15   7
  *
  * </p>
+ *
  * @author Seina
  * @version 2019-06-24 23:39:47
  */
@@ -47,9 +48,7 @@ public class ConstructBinaryTreeFromPreorderAndInorderTraversal {
         return build(preOrder, 0, preOrder.length - 1, inOrder, 0, inOrder.length - 1, map);
     }
 
-
     /**
-     *
      * @param pre : 前序遍历 preOrder
      * @param ps  : preOrder start
      * @param pe  : preOrder end
