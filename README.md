@@ -24,7 +24,7 @@
          
 ## 面试常考算法题
 
-以下列出面试高频出现，以及一些非常经典重要的算法题： 总计：100 &emsp; 已完成：37 &emsp; 未完成：63
+以下列出面试高频出现，以及一些非常经典重要的算法题： 总计：100 &emsp; 已完成：38 &emsp; 未完成：62
   
 > 实战题目 - Array
 
@@ -99,6 +99,14 @@
 |  33  | 中等 | [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) |  [search in rotated sorted array](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_33/SearchInRotatedSortedArray.java)        |    ✅     |
 |  69  | 简单 | [x 的平方根](https://leetcode-cn.com/problems/sqrtx/ )       |   [sqrtx](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_69/Sqrtx.java)       |    ✅     |
 | 367  | 简单 | [有效的完全平方数](https://leetcode-cn.com/problems/valid-perfect-square/) | [valid perfect square](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_367/ValidPerfectSquare.java)         |    ✅     |
+
+> 实战题目 - 并查集
+
+| &emsp;题号&emsp; | &emsp;难度&emsp; | 题目链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 答案链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | 是否完成 |
+| :--: | :--: | ------------------------------------------------------------ | :----------------------------------------------------------- | :------: |
+| 130  |  中等 | [被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/#/description) |          |    ❎     |
+| 200  |  中等 | [岛屿数量](https://leetcode-cn.com/problems/number-of-islands/) |   [number of islands](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_200/NumberOfIslands.java)       |    ✅     |
+| 547  |  中等 | [朋友圈](https://leetcode-cn.com/problems/friend-circles/#/description) |          |    ❎     |
 
 > 实战题目 - 遍历和搜索
 
@@ -190,14 +198,6 @@
 | &emsp;题号&emsp; | &emsp;难度&emsp; | 题目链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 答案链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | 是否完成 |
 | :--: | :--: | ------------------------------------------------------------ | :----------------------------------------------------------- | :------: |
 | 146  | 困难  | [LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/#/) |          |    ❎     |
-
-> 实战题目 - 并查集
-
-| &emsp;题号&emsp; | &emsp;难度&emsp; | 题目链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 答案链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | 是否完成 |
-| :--: | :--: | ------------------------------------------------------------ | :----------------------------------------------------------- | :------: |
-| 130  |  中等 | [被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/#/description) |          |    ❎     |
-| 200  |  中等 | [岛屿数量](https://leetcode-cn.com/problems/number-of-islands/) |          |    ❎     |
-| 547  |  中等 | [朋友圈](https://leetcode-cn.com/problems/friend-circles/#/description) |          |    ❎     |
 
 > 持续更新中。。。
 

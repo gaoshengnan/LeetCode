@@ -38,8 +38,8 @@ public class NumberOfIslands {
      *
      * 遇到岛屿就递归将其上下左右都从 1 -> 0，并且累加 岛屿数量
      *
-     * 时间复杂度：
-     * 空间复杂度：
+     * 时间复杂度：O(m * n)
+     * 空间复杂度：O(1)
      *
      * @param gird：二维网格
      * @return 岛屿数量
@@ -67,5 +67,4 @@ public class NumberOfIslands {
             dfsFill(gird, i, j - 1);//左
         }
     }
-
 }
