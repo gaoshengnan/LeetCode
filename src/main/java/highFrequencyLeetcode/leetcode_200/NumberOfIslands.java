@@ -67,4 +67,63 @@ public class NumberOfIslands {
             dfsFill(gird, i, j - 1);//左
         }
     }
+
+    /**
+     * 解法1 并查集
+     *
+     * 初始化二维表格中所有元素，在并查集中都指向自己，并将陆地 1 的数量累计到 count，然后遍历上下左右节点，发现陆地，就联合在一起，并同时 count--，最后返回 count 即是岛屿的数量
+     *
+     * 时间复杂度：O(m * n)
+     * 空间复杂度：O(m * n)
+     *
+     * @param gird：二维网格
+     * @return 岛屿数量
+     */
+    public static int numIslands2(char[][] gird) {
+        if (gird.length == 0 || gird[0].length == 0) return 0;
+        int m = gird.length, n = gird[0].length;//m = 4, n = 5
+        UF uf = new UF(m, n, gird);
+
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (gird[i][j] == '0') continue;
+                int p = i * n + j;//p：计算当前元素在并查集（一位数组）root 中的下标
+                int q;//q：当前元素上下左右元素的下标
+                if (i > 0 && gird[i - 1][j] == '1'){//判断上面元素
+                    q = p - n;
+                    uf.union(p, q);
+                }
+                if (i < m - 1 && gird[i + 1][j] == '1') {//判断下面元素
+                    q = p + n;//当前元素下方向元素在 root 中的下标
+                    uf.union(p, q);
+                }
+                if (j > 0 && gird[i][j - 1] == '1') {//判断左边元素
+                    q = p -1;
+                    uf.union(p, q);
+                }
+                if (j < n -1 && gird[i][j + 1] == '1') {//判断右边元素
+                    q = p + 1;
+                    uf.union(p, q);
+                }
+            }
+        }
+        return uf.count;
+    }
+
+    // 方便 debug
+    public static void main(String[] args) {
+        char[][] grid1 = {
+                {'1', '1', '1', '1', '0'},
+                {'1', '1', '0', '1', '0'},
+                {'1', '1', '0', '0', '0'},
+                {'0', '0', '0', '0', '0'}};
+        //int numIslands1 = numIslands2(grid1);
+
+        char[][] grid2 = {
+                {'1', '1', '0', '0', '0'},
+                {'1', '1', '0', '0', '0'},
+                {'0', '0', '1', '0', '0'},
+                {'0', '0', '0', '1', '1'}};
+        //int numIslands2 = numIslands2(grid2);
+    }
 }

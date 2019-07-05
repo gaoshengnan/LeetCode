@@ -20,9 +20,10 @@ public class UF {
     }
 
     public int find(int p) {
+        //路径压缩
         while (p != root[p]) {
             root[p] = root[root[p]];
-            p = root[p];
+            p = root[p]; //p = 1
         }
         return p;
     }
