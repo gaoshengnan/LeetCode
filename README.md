@@ -24,7 +24,7 @@
          
 ## 面试常考算法题
 
-以下列出面试高频出现，以及一些非常经典重要的算法题： 总计：100 &emsp; 已完成：39 &emsp; 未完成：61
+以下列出面试高频出现，以及一些非常经典重要的算法题： 总计：100 &emsp; 已完成：40 &emsp; 未完成：60
   
 > 实战题目 - Array
 
@@ -134,7 +134,7 @@
 |  91  | 中等 | [解码方法](https://leetcode-cn.com/problems/decode-ways)     |          |    ❎     |
 | 120  | 中等 | [三角形最小路径和](https://leetcode-cn.com/problems/triangle/description/) |          |    ❎     |
 | 121  | 简单 | [买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/#/description) |  [best time to buy and shell stock](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_121/BestTimeToBuyAndSellStock.java)        |    ✅     |
-| 122  | 简单 | [买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) |          |    ❎     |
+| 122  | 简单 | [买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) |   [best time to buy and shell stock ii](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_122/BestTimeToBuyAndSellStockII.java)       |     ✅     |
 | 123  | 困难 | [买卖股票的最佳时机 III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/) |          |    ❎     |
 | 152  | 中等 | [乘积最大子序列](https://leetcode-cn.com/problems/maximum-product-subarray/description/) |          |    ❎     |
 | 188  | 困难 | [买卖股票的最佳时机 IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/) |          |    ❎     |

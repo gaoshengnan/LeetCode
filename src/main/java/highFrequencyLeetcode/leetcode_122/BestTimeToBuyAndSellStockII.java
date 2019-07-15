@@ -38,4 +38,23 @@ package highFrequencyLeetcode.leetcode_122;
  * @version 2019-07-15 18:31:44
  */
 public class BestTimeToBuyAndSellStockII {
+
+    /**
+     * 解法1 一次遍历 峰谷法
+     *
+     * 将给定数组画在一个坐标上，x 轴表示数组下标，y 轴表示股票价格，累加所有向上倾斜的差值，即是最终的最大利益
+     *
+     * 时间复杂度：O(n)
+     * 空间复杂度：O(1)
+     *
+     * @param prices 股票价格
+     * @return 最大利润
+     */
+    public static int maxProfit(int[] prices) {
+        int total = 0;
+        for (int i = 0; i < prices.length - 1; i++) {
+            if (prices[i + 1] > prices[i]) total += prices[i + 1] - prices[i];
+        }
+        return total;
+    }
 }
