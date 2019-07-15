@@ -24,7 +24,7 @@
          
 ## 面试常考算法题
 
-以下列出面试高频出现，以及一些非常经典重要的算法题： 总计：100 &emsp; 已完成：38 &emsp; 未完成：62
+以下列出面试高频出现，以及一些非常经典重要的算法题： 总计：100 &emsp; 已完成：39 &emsp; 未完成：61
   
 > 实战题目 - Array
 
@@ -120,25 +120,6 @@
 | 515  | 中等  | [在每个树行中找最大值](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/#/description) |          |    ❎     |
 | 529  | 中等  | [扫雷游戏](https://leetcode-cn.com/problems/minesweeper/description/) |          |    ❎     |
 
-
-> 实战题目 - 剪枝
-
-| &emsp;题号&emsp; | &emsp;难度&emsp; | 题目链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 答案链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | 是否完成 |
-| :--: | :--: | ------------------------------------------------------------ | :----------------------------------------------------------- | :------: |
-|  36  | 中等 | [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/description/) |          |    ❎     |
-|  37  | 困难 | [解数独](https://leetcode-cn.com/problems/sudoku-solver/#/description) |          |    ❎     |
-|  51  | 困难 | [N皇后](https://leetcode-cn.com/problems/n-queens/)          |          |    ❎     |
-
-> 实战题目 - 贪心
-
-| &emsp;题号&emsp; | &emsp;难度&emsp; | 题目链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 答案链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 是否完成 |
-| :--: | :--: | ------------------------------------------------------------ | :----------------------------------------------------------- | :------: |
-| 122  | 简单 | [买卖股票的最佳时机 II  ](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/description/) |          |    ❎     |
-| 455  | 简单 | [分发饼干](https://leetcode-cn.com/problems/assign-cookies/description/) |          |    ❎     |
-| 860  | 简单 | [柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/description/) |          |    ❎     |
-| 874  | 简单 | [模拟行走机器人](https://leetcode-cn.com/problems/walking-robot-simulation/description/) |          |    ❎     |
-
-
 > 实战题目 - 动态规划
 
 | &emsp;题号&emsp; | &emsp;难度&emsp; | 题目链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 答案链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | 是否完成 |
@@ -153,7 +134,7 @@
 |  76  | 困难 | [最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/) |          |    ❎     |
 |  91  | 中等 | [解码方法](https://leetcode-cn.com/problems/decode-ways)     |          |    ❎     |
 | 120  | 中等 | [三角形最小路径和](https://leetcode-cn.com/problems/triangle/description/) |          |    ❎     |
-| 121  | 简单 | [买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/#/description) |          |    ❎     |
+| 121  | 简单 | [买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/#/description) |  [best time to buy and shell stock](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_121/BestTimeToBuyAndSellStock.java)        |    ✅     |
 | 122  | 简单 | [买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) |          |    ❎     |
 | 123  | 困难 | [买卖股票的最佳时机 III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/) |          |    ❎     |
 | 152  | 中等 | [乘积最大子序列](https://leetcode-cn.com/problems/maximum-product-subarray/description/) |          |    ❎     |
@@ -174,6 +155,25 @@
 | 647  | 中等 | [回文子串](https://leetcode-cn.com/problems/palindromic-substrings/) |          |    ❎     |
 | 714  | 中等 | [买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) |          |    ❎     |
 | 980  | 困难 | [不同路径 III ](https://leetcode-cn.com/problems/unique-paths-iii/) |          |    ❎     |
+
+
+> 实战题目 - 剪枝
+
+| &emsp;题号&emsp; | &emsp;难度&emsp; | 题目链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 答案链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | 是否完成 |
+| :--: | :--: | ------------------------------------------------------------ | :----------------------------------------------------------- | :------: |
+|  36  | 中等 | [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/description/) |          |    ❎     |
+|  37  | 困难 | [解数独](https://leetcode-cn.com/problems/sudoku-solver/#/description) |          |    ❎     |
+|  51  | 困难 | [N皇后](https://leetcode-cn.com/problems/n-queens/)          |          |    ❎     |
+
+> 实战题目 - 贪心
+
+| &emsp;题号&emsp; | &emsp;难度&emsp; | 题目链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 答案链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 是否完成 |
+| :--: | :--: | ------------------------------------------------------------ | :----------------------------------------------------------- | :------: |
+| 122  | 简单 | [买卖股票的最佳时机 II  ](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/description/) |          |    ❎     |
+| 455  | 简单 | [分发饼干](https://leetcode-cn.com/problems/assign-cookies/description/) |          |    ❎     |
+| 860  | 简单 | [柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/description/) |          |    ❎     |
+| 874  | 简单 | [模拟行走机器人](https://leetcode-cn.com/problems/walking-robot-simulation/description/) |          |    ❎     |
+
 
 > 实战题目 - trie 树
 
