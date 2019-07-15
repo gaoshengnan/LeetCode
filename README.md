@@ -115,7 +115,6 @@
 | 102  | 中等 | [二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/#/description) |  [binary tree level order traversal](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/highFrequencyLeetcode/leetcode_102/BinaryTreeLevelOrderTraversal.java)        |    ✅     |
 | 126  | 困难  | [单词接龙 II](https://leetcode-cn.com/problems/word-ladder-ii/description/) |          |    ❎     |
 | 127  | 中等  | [单词接龙](https://leetcode-cn.com/problems/word-ladder/description/) |          |    ❎     |
-| 200  | 中等  | [岛屿数量](https://leetcode-cn.com/problems/number-of-islands/) |          |    ❎     |
 | 433  | 中等  | [最小基因变化](https://leetcode-cn.com/problems/minimum-genetic-mutation/#/description) |          |    ❎     |
 | 515  | 中等  | [在每个树行中找最大值](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/#/description) |          |    ❎     |
 | 529  | 中等  | [扫雷游戏](https://leetcode-cn.com/problems/minesweeper/description/) |          |    ❎     |
@@ -169,7 +168,6 @@
 
 | &emsp;题号&emsp; | &emsp;难度&emsp; | 题目链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 答案链接&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;| 是否完成 |
 | :--: | :--: | ------------------------------------------------------------ | :----------------------------------------------------------- | :------: |
-| 122  | 简单 | [买卖股票的最佳时机 II  ](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/description/) |          |    ❎     |
 | 455  | 简单 | [分发饼干](https://leetcode-cn.com/problems/assign-cookies/description/) |          |    ❎     |
 | 860  | 简单 | [柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/description/) |          |    ❎     |
 | 874  | 简单 | [模拟行走机器人](https://leetcode-cn.com/problems/walking-robot-simulation/description/) |          |    ❎     |
