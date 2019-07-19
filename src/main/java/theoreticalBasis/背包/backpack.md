@@ -16,7 +16,7 @@
 
 这里还稍微用了一点搜索剪枝的技巧，就是当发现已经选择的物品的重量超过 bw kg 的时候，停止继续下坠剩下的物品。
 
-<div align="center"><img src="../../../resources/img/backpack/backpack.png" height="220" width="800" ></div>
+<div align="center"><img src="../../../resources/img/backpack/backpack.png" height="250" width="800" ></div>
 
 从上图递归树中可以发现，有些子问题重复，于是再加上记忆化递归，记录已经计算好的 f（i，curLoadSum）,下次再计算的时候直接取出，不用继续下坠。
 
@@ -62,7 +62,7 @@
 
 以此类推，直到考察完所有物品。在最后一层找到一个值为 true 并且最接近 9 的值，就是背包中物品总重量的最大值。
 
-<div align="center"><img src="../../../resources/img/backpack/bpdp.png" height="180" width="600" ></div>
+<div align="center"><img src="../../../resources/img/backpack/bpdp.png" height="200" width="500" ></div>
 
 ```java
 /**
