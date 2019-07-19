@@ -10,13 +10,13 @@
 
 ### 回溯 + 记忆化递归
 
-对于每个物品来说，都有两个选择，装进背包或者不装进背包，那么 n 个物品，总的装法就有 2ⁿ 种，去掉总重量超过 W kg 的，从剩下的装法中选择总重量嘴接近 W kg 的。不过我们如何才能不重复的穷举出这 2ⁿ 种装法呢？
+对于每个物品来说，都有两个选择，装进背包或者不装进背包，那么 n 个物品，总的装法就有 2ⁿ 种，去掉总重量超过 bw kg 的，从剩下的装法中选择总重量嘴接近 bw kg 的。不过我们如何才能不重复的穷举出这 2ⁿ 种装法呢？
 
 我们可以把物品依次排列，整个问题就分解成了 n 个阶段，每个阶段对应一个物品怎么选择，先对第一个物品进行处理，选择装进去或者不装进去，然后再递归的处理剩下的物品。
 
-这里还稍微用了一点搜索剪枝的技巧，就是当发现已经选择的物品的重量超过 W kg 的时候，停止继续下坠剩下的物品。
+这里还稍微用了一点搜索剪枝的技巧，就是当发现已经选择的物品的重量超过 bw kg 的时候，停止继续下坠剩下的物品。
 
-<div align="center"><img src="../../../resources/img/backpack/backpack.png" height="220" width="700" ></div>
+<div align="center"><img src="../../../resources/img/backpack/backpack.png" height="220" width="800" ></div>
 
 从上图递归树中可以发现，有些子问题重复，于是再加上记忆化递归，记录已经计算好的 f（i，curLoadSum）,下次再计算的时候直接取出，不用继续下坠。
 
@@ -28,10 +28,10 @@
      * @param i: 考察到哪个物品
      * @param curLoadSum: 当前已经装进去的物品的重量和
      * @param n：物品个数
-     * @param bpWeight：背包可承受重量
+     * @param bw：背包可承受重量
      */
     private void f(int i, int curLoadSum, int n, int bpWeight) {
-        if (curLoadSum == bpWeight || i == n) {//装满了或者物品全部考察完
+        if (curLoadSum == bw || i == n) {//装满了或者物品全部考察完
             //if (curLoadSum > maxW) maxW = curLoadSum;
             maxW = Math.max(maxW, curLoadSum);
             return;
@@ -39,7 +39,7 @@
         if (mem[i][curLoadSum]) return;
         mem[i][curLoadSum] = true;//记忆化递归存储
         f(i + 1, curLoadSum, n, bpWeight);//不装第 i 件物品
-        if (curLoadSum + weights[i] <= bpWeight)//若加上 i 件物品，小于背包承载重量，再继续装 (剪枝)
+        if (curLoadSum + weights[i] <= bw)//若加上 i 件物品，小于背包承载重量，再继续装 (剪枝)
             f(i + 1, curLoadSum + weights[i], n, bpWeight);//装第 i 件物品
     }
 
@@ -62,7 +62,7 @@
 
 以此类推，直到考察完所有物品。在最后一层找到一个值为 true 并且最接近 9 的值，就是背包中物品总重量的最大值。
 
-<div align="center"><img src="../../../resources/img/backpack/bpdp.png" height="180" width="700" ></div>
+<div align="center"><img src="../../../resources/img/backpack/bpdp.png" height="180" width="600" ></div>
 
 ```java
 /**
@@ -92,4 +92,6 @@
         return 0;
     }
 ```
+
+代码更详细部分请点击： [01背包代码答案](https://github.com/gaoshengnan/LeetCode/blob/master/src/main/java/theoreticalBasis/%E8%83%8C%E5%8C%85/Backpack01.java)
 
