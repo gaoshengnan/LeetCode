@@ -38,24 +38,24 @@ public class Backpack01 {
      * 解法2 动态规划
      *
      * @param n：物品个数
-     * @param w: 当前已经装进去的物品的重量和
+     * @param bw: 当前已经装进去的物品的重量和
      * @return 最大可以装多少重量
      */
-    private int dpBackpack (int n, int w) {
-        boolean[][] states = new boolean[n][w + 1];
-        states[0][0] = true;
-        if (weights[0] <= w) states[0][weights[0]] = true;
+    private int dpBackpack (int n, int bw) {
+        boolean[][] s = new boolean[n][bw + 1];
+        s[0][0] = true;//第一件物品不装
+        if (weights[0] <= bw) s[0][weights[0]] = true;//第一件物品装
         for (int i = 1; i < n; i++) {
-            for (int j = 0; j <= w - weights[i]; j++) {
-                if (states[i - 1][j]) states[i][j] = states[i - 1][j];
+            for (int j = 0; j <= bw ; j++) {
+                if (s[i - 1][j]) s[i][j] = s[i - 1][j];
             }
-            for (int j = 0; j <= w - weights[i]; j++) {
-                if (states[i - 1][j]) states[i][j + weights[i]] = true;
+            for (int j = 0; j <= bw - weights[i]; j++) {
+                if (s[i - 1][j]) s[i][j + weights[i]] = true;
             }
         }
 
-        for (int i = w; i >= 0; i--) {
-            if (states[n - 1][i]) return i;
+        for (int i = bw; i >= 0; i--) {
+            if (s[n - 1][i]) return i;
         }
         return 0;
     }
