@@ -32,7 +32,7 @@ public class HouseRobberII {
 
         /**
          * dfFirst 简称 dpf， dpSecond 简称 dps
-         * 例如 nums = {9，1,2,10,15}
+         * 例如 nums = {9，1，2，10，15}
          * dpf[0] = 0  dpf[1] = 9  dpf[2] = 9  dpf[3] = 11  dpf[4] = 19  dpf[5] = 26
          * dps[0] = 0  dps[1] = 0  dps[2] = 1  dps[3] = 2   dps[4] = 11  dps[5] = 17
          */
