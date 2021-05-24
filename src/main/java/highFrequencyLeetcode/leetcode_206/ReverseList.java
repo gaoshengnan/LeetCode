@@ -28,9 +28,11 @@ public class ReverseList {
 
     /**
      * 解法1 迭代法
-     *
      * @param head ：头结点
-     * @return
+     *
+     * 时间复杂度 O(n)
+     * 空间复杂度 O(1)
+     *
      */
     public ListNode reverseList1(ListNode head){
 
@@ -45,7 +47,7 @@ public class ReverseList {
         while (cur != null){
             //将当前结点指向的下一个结点存起来赋值给next结点
             next = cur.next;
-            //开始改变当前结点的指针-->指向上一个结点
+            //开始改变当前结点的指针 --> 指向上一个结点
             cur.next = pre;
             //开始移动指针，pre --> 移动到 cur
             pre = cur;
@@ -53,5 +55,30 @@ public class ReverseList {
             cur = next;
         }
         return pre;
+    }
+
+    /**
+     * 解法1 递归
+     *
+     * @param head ：头结点
+     *
+     * 时间复杂度 O(n)
+     * 空间复杂度 O(n)
+     *
+     */
+    public ListNode reverseList2(ListNode head){
+        //递归终止条件（newHead 指向尾节点）
+        if (head == null || head.next == null) {
+            return head;
+        }
+        ListNode newHead = reverseList2(head.next);
+        //当前节点的下一个节点的下一个节点指向自己
+        //简单理解就是由 1 -> 2 变成 1 <- 2
+        head.next.next = head;
+        //当前节点指向 null（递归结束的时候，这里就是尾节点指向 null）
+        head.next = null;
+        //newHead 经过层层递归，从正序链表的头节点走到尾节点（也就是反转的链表的首节点）
+        //归来过程 newHead 一直都指向尾节点，归来的过程没有移动
+        return newHead;
     }
 }
